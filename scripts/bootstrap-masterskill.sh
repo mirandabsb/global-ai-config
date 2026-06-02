@@ -47,8 +47,8 @@ fi
 
 # ─── Masterskill symlinks ───
 MASTERSKILL_RUNTIME="$HOME/Antigravity/.agent/Configuration/.gemini/antigravity/skills/masterskill"
-MASTERSKILL_REPO="$REPO_ROOT/antigravity/masterskill"
-REFERENCES_REPO="$REPO_ROOT/antigravity/references"
+MASTERSKILL_REPO="$REPO_ROOT/masterskill/masterskill"
+REFERENCES_REPO="$REPO_ROOT/masterskill/references"
 
 if [ ! -f "$MASTERSKILL_REPO/SKILL.md" ]; then
   echo "Missing masterskill SKILL.md in repo: $MASTERSKILL_REPO/SKILL.md" >&2

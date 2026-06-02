@@ -1,6 +1,6 @@
-# AntiGravity Kit — Guia de Instalação
+# Gemini Runtime Kit — Guia de Instalação
 
-**O que é**: Kit oficial do Google AntiGravity para inicializar projetos com estrutura de agentes, skills e workflows prontos para uso. Agora instalado globalmente.
+**O que é**: Kit oficial para inicializar projetos com estrutura de agentes, skills e workflows prontos para uso em runtimes Gemini. Agora instalado globalmente.
 
 ---
 
@@ -35,7 +35,7 @@ npx @vudovn/ag-kit init
 Sempre que o comando `ag-kit init` for executado, você **DEVE** garantir que o arquivo `.gitignore` na raiz do projeto contenha as seguintes entradas para evitar o commit de arquivos de configuração local e do diretório do agente:
 
 ```gitignore
-# AntiGravity Kit
+# Gemini Runtime Kit
 .agent/
 .gemini/
 GEMINI.md
@@ -48,5 +48,5 @@ GEMINI.md
 ## Próximos passos após instalação
 
 1. Siga os prompts do CLI para configurar o projeto
-2. Abra o projeto no Google AntiGravity IDE
+2. Abra o projeto no Google Gemini runtime IDE
 3. Use `/` para ver os workflows e skills disponíveis

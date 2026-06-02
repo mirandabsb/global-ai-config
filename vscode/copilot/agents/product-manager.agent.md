@@ -1,6 +1,6 @@
 ---
 name: product-manager
-description: "Help define goals, requirements and roadmap items for using the global AI config as a shared catalog across VS Code and AntiGravity."
+description: "Help define goals, requirements and roadmap items for using the global AI config as a shared catalog across VS Code and Gemini-compatible runtimes."
 user-invocable: true
 disable-model-invocation: true
 ---

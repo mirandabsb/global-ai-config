@@ -43,5 +43,5 @@ __pycache__/
 
 # Local generated config
 config/ai-assets.local.json
-antigravity/**/settings.local.json
+masterskill/**/settings.local.json
 vscode/**/settings.local.json

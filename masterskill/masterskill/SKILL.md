@@ -7,14 +7,14 @@ description: >
 
   Quando ativado, interpreta a instrução fornecida após o comando e executa:
   - Inicialização via `/master-skill init`
-  - Instalação de frameworks de IA no projeto atual: BMad Method, Spec-Kit, Antigravity Kit
+  - Instalação de frameworks de IA no projeto atual: BMad Method, Spec-Kit, runtime kit
   - Busca e instalação de skills de uma pasta externa no projeto atual
   - **Consultoria de Seleção**: Recomenda a combinação ideal de ferramentas baseada na tarefa descrita.
 
   Exemplos de ativação (SOMENTE via /master-skill):
   - /master-skill init
   - /master-skill instale o BMad
-  - /master-skill instale o Antigravity Kit
+  - /master-skill instale o runtime kit
   - /master-skill configure o Spec-Kit nesse projeto
   - /master-skill quero a skill de brainstorm
   - /master-skill instale a skill de code-review
@@ -28,7 +28,7 @@ description: >
 >
 > | Agente | Pasta global |
 > |--------|--------------|
-> | Antigravity | `/home/marcos/.gemini/antigravity/skills/` |
+> | Gemini runtime | `/home/marcos/.gemini/antigravity/skills/` |
 > | Claude Code | `C:\Users\<usuario>\.claude\skills\` |
 > | Codex CLI | `C:\Users\<usuario>\.agents\skills\` |
 > | Cursor | `C:\Users\<usuario>\.cursor\skills\` |
@@ -36,7 +36,7 @@ description: >
 > | GitHub Copilot | `C:\Users\<usuario>\.github\skills\` |
 >
 > O arquivo `settings.json` é salvo dentro da pasta desta skill **no agente escolhido durante o `/master-skill init`**.
-> Exemplo (Antigravity): `/home/marcos/.gemini/antigravity/skills/masterskill/config/settings.json`
+> Exemplo (Gemini runtime): `/home/marcos/.gemini/antigravity/skills/masterskill/config/settings.json`
 > Exemplo (Claude Code): `C:\Users\<usuario>\.claude\skills\master-skill\config\settings.json`
 
 Você foi ativado via `/master-skill`. Antes de qualquer ação, siga o fluxo abaixo.
@@ -65,7 +65,7 @@ Apresente esta mensagem ao usuário:
 >
 > | # | Agente | Pasta global de skills |
 > |---|--------|----------------------|
-> | 1 | Antigravity (Gemini) | `/home/marcos/.gemini/antigravity/skills/` |
+> | 1 | Gemini runtime | `/home/marcos/.gemini/antigravity/skills/` |
 > | 2 | Claude Code | `C:\Users\<usuario>\.claude\skills\` |
 > | 3 | Codex CLI | `C:\Users\<usuario>\.agents\skills\` |
 > | 4 | Cursor | `C:\Users\<usuario>\.cursor\skills\` |
@@ -78,7 +78,7 @@ Mapeie a resposta para:
 
 | Agente | Pasta global de skills |
 |--------|----------------------|
-| Antigravity / Gemini | `/home/marcos/.gemini/antigravity/skills/` |
+| Gemini runtime | `/home/marcos/.gemini/antigravity/skills/` |
 | Claude Code | `C:\Users\<usuario>\.claude\skills\` |
 | Codex CLI | `C:\Users\<usuario>\.agents\skills\` |
 | Cursor | `C:\Users\<usuario>\.cursor\skills\` |
@@ -105,7 +105,7 @@ C:\Users\<usuario>\.<pasta-do-agente>\skills\master-skill\config\settings.json
 ```
 
 Exemplos concretos:
-- Antigravity → `/home/marcos/.gemini/antigravity/skills/masterskill/config/settings.json`
+- Gemini runtime → `/home/marcos/.gemini/antigravity/skills/masterskill/config/settings.json`
 - Claude Code  → `C:\Users\<usuario>\.claude\skills\master-skill\config\settings.json`
 - Codex CLI    → `C:\Users\<usuario>\.agents\skills\master-skill\config\settings.json`
 
@@ -161,7 +161,7 @@ A pasta do agente varia conforme o agente escolhido:
 
 | Agente | Caminho do settings.json |
 |--------|--------------------------|
-| Antigravity | `/home/marcos/.gemini/antigravity/skills/masterskill/config/settings.json` |
+| Gemini runtime | `/home/marcos/.gemini/antigravity/skills/masterskill/config/settings.json` |
 | Claude Code | `C:\Users\<usuario>\.claude\skills\master-skill\config\settings.json` |
 | Codex CLI | `C:\Users\<usuario>\.agents\skills\master-skill\config\settings.json` |
 | Cursor | `C:\Users\<usuario>\.cursor\skills\master-skill\config\settings.json` |
@@ -197,7 +197,7 @@ Leia a instrução após `/master-skill` e classifique:
 
 | Categoria | Quando usar | Exemplos |
 |-----------|-------------|---------|
-| **A — Framework** | Menciona BMad, BMAD, Spec-Kit, SpecKit, Antigravity, antigravity-kit | "instale o BMad", "quero o Spec-Kit", "setup do Antigravity Kit" |
+| **A — Framework** | Menciona BMad, BMAD, Spec-Kit, SpecKit, Gemini runtime, runtime-kit | "instale o BMad", "quero o Spec-Kit", "setup do runtime kit" |
 | **B — Skill Externa** | Menciona "skill de X", "quero a skill X", "instale a skill X", "liste skills" | "quero a skill de brainstorm", "instale code-review", "liste as skills" |
 | **C — Reconfigurar** | Menciona "mudar pasta", "trocar agente", "reconfigurar", "nova pasta de skills" | "muda a pasta de skills", "reconfigurar", "mudar agente" |
 | **D — Agente** | Menciona "agente de X", "quero o agente", "instale o agente", "liste agentes" | "traga o agente de seo", "quero o agente debugger", "liste os agentes" |
@@ -218,8 +218,8 @@ Leia o arquivo de referência correspondente para instruções detalhadas:
 
 - **BMad Method** → `references/bmad.md`
 - **Spec-Kit (GitHub)** → `references/speckit.md`
-- **AntiGravity Kit** → `references/antigravity.md`
-- **Antigravity Kit** → `references/antigravity.md`
+- **Runtime Kit** → `references/gemini-runtime.md`
+- **Runtime Kit** → `references/gemini-runtime.md`
 
 Após a leitura, execute a instalação conforme as instruções do arquivo de referência.
 
@@ -253,7 +253,7 @@ Verifique quais pastas de configuração existem na **raiz do projeto atual**:
 | Pasta encontrada | Agente | Destino da skill |
 |-----------------|--------|-----------------|
 | `.claude/` | Claude Code | `.claude/skills/<skill-nome>/` |
-| `.agent/` | Antigravity | `.agent/skills/<skill-nome>/` |
+| `.agent/` | Gemini runtime | `.agent/skills/<skill-nome>/` |
 | `.gemini/` | Gemini CLI | `.gemini/skills/<skill-nome>/` |
 | `.agents/` | Codex CLI | `.agents/skills/<skill-nome>/` |
 | `.cursor/` | Cursor | `.cursor/skills/<skill-nome>/` |
@@ -297,7 +297,7 @@ Liste os arquivos `.md` em `Biblioteca_Global/agents/` e apresente nome e descri
 
 1. Detecte o agente do projeto (`.agent/`, `.claude/`, etc.) conforme Passo 2 da seção B
 2. Copie o arquivo do agente para:
-   - Antigravity: `<projeto>/.agent/agents/<agente>.md`
+   - Gemini runtime: `<projeto>/.agent/agents/<agente>.md`
    - Claude Code: `<projeto>/.claude/agents/<agente>.md`
 3. Confirme: _"✅ Agente `<nome>` instalado em `.agent/agents/`"_
 
@@ -319,7 +319,7 @@ Liste os arquivos `.md` em `Biblioteca_Global/workflows/` e apresente nome e des
 
 1. Detecte o agente do projeto conforme Passo 2 da seção B
 2. Copie o workflow para:
-   - Antigravity: `<projeto>/.agent/workflows/<workflow>.md`
+   - Gemini runtime: `<projeto>/.agent/workflows/<workflow>.md`
 3. Confirme: _"✅ Workflow `<nome>` instalado em `.agent/workflows/`"_
 
 ```bash

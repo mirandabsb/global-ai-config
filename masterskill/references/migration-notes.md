@@ -1,6 +1,6 @@
-# AntiGravity Migration Notes
+# Gemini Runtime Migration Notes
 
-`GEMINI.md` is reference material for AntiGravity behavior. VS Code/Copilot uses native global customization files under `~/.copilot`.
+`GEMINI.md` is reference material for Gemini runtime behavior. VS Code/Copilot uses native global customization files under `~/.copilot`.
 
 The shared global catalog lives at:
 

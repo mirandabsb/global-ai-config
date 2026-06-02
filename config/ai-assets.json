@@ -21,7 +21,7 @@
     },
     "antigravity": {
       "runtime_skills_path": "${HOME}/.gemini/antigravity/skills",
-      "reference_config_path": "${HOME}/AI/global-ai-config/antigravity"
+      "reference_config_path": "${HOME}/AI/global-ai-config/masterskill"
     }
   },
   "activation_commands": [

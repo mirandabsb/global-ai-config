@@ -19,7 +19,7 @@ Global catalog config:
 This catalog is shared by:
 
 - VS Code/Copilot
-- AntiGravity
+- Gemini-compatible runtimes
 
 Default behavior:
 

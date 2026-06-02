@@ -54,7 +54,7 @@ VS Code/Copilot target locations:
 - Workspace agents: `.github/agents/<agent-name>.agent.md`
 - Workspace prompts: `.github/prompts/<workflow-name>.prompt.md`
 
-AntiGravity target locations:
+Runtime target locations:
 
 - Project skills: `.agent/skills/<skill-name>/`
 - Project agents: `.agent/agents/<agent-name>/`
