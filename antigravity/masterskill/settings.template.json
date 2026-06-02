@@ -1,0 +1,12 @@
+{
+  "agent": "AntiGravity",
+  "agent_global_skills_folder": "${HOME}/.gemini/antigravity/skills/",
+  "skills_folder": "${HOME}/AI/global-ai-config/biblioteca/Biblioteca_Global",
+  "global_assets_config": "${HOME}/AI/global-ai-config/config/ai-assets.json",
+  "lazy_loading": true,
+  "auto_load_skills": false,
+  "auto_activate_agents": false,
+  "auto_import_workflows": false,
+  "auto_install_frameworks": false,
+  "load_only_on_explicit_user_request": true
+}

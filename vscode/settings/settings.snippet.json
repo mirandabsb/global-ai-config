@@ -1,0 +1,28 @@
+{
+  "chat.includeApplyingInstructions": true,
+  "chat.includeReferencedInstructions": false,
+  "chat.instructionsFilesLocations": {
+    "~/.copilot/instructions": true,
+    ".github/instructions": true
+  },
+  "chat.useAgentSkills": true,
+  "chat.agentSkillsLocations": {
+    "~/.copilot/skills": true,
+    ".github/skills": true
+  },
+  "chat.agentFilesLocations": {
+    "~/.copilot/agents": true,
+    ".github/agents": true
+  },
+  "chat.promptFilesLocations": {
+    "~/.copilot/prompts": true,
+    ".github/prompts": true
+  },
+  "chat.useCustomizationsInParentRepositories": false,
+  "chat.useNestedAgentsMdFiles": false,
+  "chat.mcp.discovery.enabled": false,
+  "github.copilot.chat.additionalReadAccessFolders": [
+    "${HOME}/AI/global-ai-config/biblioteca/Biblioteca_Global",
+    "${HOME}/AI/global-ai-config/config"
+  ]
+}

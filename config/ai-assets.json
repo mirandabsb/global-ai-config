@@ -1,0 +1,40 @@
+{
+  "version": "1.0",
+  "owner": "mirandabsb",
+  "repository": "global-ai-config",
+  "global_library_path": "${HOME}/AI/global-ai-config/biblioteca/Biblioteca_Global",
+  "policy": {
+    "lazy_loading": true,
+    "auto_load_skills": false,
+    "auto_activate_agents": false,
+    "auto_import_workflows": false,
+    "auto_install_frameworks": false,
+    "load_only_on_explicit_user_request": true
+  },
+  "ides": {
+    "vscode_copilot": {
+      "runtime_root": "${HOME}/.copilot",
+      "instructions_path": "${HOME}/.copilot/instructions",
+      "skills_path": "${HOME}/.copilot/skills",
+      "agents_path": "${HOME}/.copilot/agents",
+      "prompts_path": "${HOME}/.copilot/prompts"
+    },
+    "antigravity": {
+      "runtime_skills_path": "${HOME}/.gemini/antigravity/skills",
+      "reference_config_path": "${HOME}/AI/global-ai-config/antigravity"
+    }
+  },
+  "activation_commands": [
+    "/master-skill",
+    "liste as skills",
+    "liste os agentes",
+    "liste os workflows",
+    "traga a skill",
+    "traga o agente",
+    "traga o workflow",
+    "instale o framework",
+    "quais skills devo usar",
+    "use a skill",
+    "ative o agente"
+  ]
+}

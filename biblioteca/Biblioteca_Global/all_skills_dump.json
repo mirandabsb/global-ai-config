@@ -1,0 +1,2032 @@
+[
+  {
+    "path": "ai/agent-framework-azure-ai-py",
+    "name": "agent-framework-azure-ai-py",
+    "description": "\"Build Azure AI Foundry agents using the Microsoft Agent Framework Python SDK (agent-framework-azure-ai). Use when creating persistent agents with AzureAIAgentsProvider, using hosted tools (code int...\""
+  },
+  {
+    "path": "ai/agent-manager-skill",
+    "name": "agent-manager-skill",
+    "description": "Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) with cron-friendly scheduling."
+  },
+  {
+    "path": "ai/agent-tool-builder",
+    "name": "agent-tool-builder",
+    "description": "\"Tools are how AI agents interact with the world. A well-designed tool is the difference between an agent that works and one that hallucinates, fails silently, or costs 10x more tokens than necessary.  This skill covers tool design from schema to error handling. JSON Schema best practices, description writing that actually helps the LLM, validation, and the emerging MCP standard that's becoming the lingua franca for AI tools.  Key insight: Tool descriptions are more important than tool implementa\""
+  },
+  {
+    "path": "ai/agents-v2-py",
+    "name": "agents-v2-py",
+    "description": "\"Build container-based Foundry Agents with Azure AI Projects SDK (ImageBasedHostedAgentDefinition). Use when creating hosted agents with custom container images in Azure AI Foundry.\""
+  },
+  {
+    "path": "ai/ai-agents-architect",
+    "name": "ai-agents-architect",
+    "description": "\"Expert in designing and building autonomous AI agents. Masters tool use, memory systems, planning strategies, and multi-agent orchestration. Use when: build agent, AI agent, autonomous agent, tool use, function calling.\""
+  },
+  {
+    "path": "ai/ai-engineer",
+    "name": "ai-engineer",
+    "description": "\"Build production-ready LLM applications, advanced RAG systems, and\""
+  },
+  {
+    "path": "ai/ai-evaluation-expert",
+    "name": "ai-evaluation-expert",
+    "description": "\"Master of AI/LLM evaluation frameworks, benchmark design, agent performance scoring, and systematic quality assessment pipelines.\""
+  },
+  {
+    "path": "ai/ai-product",
+    "name": "ai-product",
+    "description": "\"Every product will be AI-powered. The question is whether you'll build it right or ship a demo that falls apart in production.  This skill covers LLM integration patterns, RAG architecture, prompt engineering that scales, AI UX that users trust, and cost optimization that doesn't bankrupt you. Use when: keywords, file_patterns, code_patterns.\""
+  },
+  {
+    "path": "ai/antigravity-workflows",
+    "name": "antigravity-workflows",
+    "description": "\"Orchestrate multiple Antigravity skills through guided workflows for SaaS MVP delivery, security audits, AI agent builds, and browser QA.\""
+  },
+  {
+    "path": "ai/autonomous-agent-expert",
+    "name": "autonomous-agent-expert",
+    "description": "\"Master of autonomous agent design patterns, self-directed execution loops, tool-use strategies, and agent reliability patterns.\""
+  },
+  {
+    "path": "ai/computer-vision-expert",
+    "name": "computer-vision-expert",
+    "description": "\"SOTA Computer Vision Expert (2026). Specialized in YOLO26, Segment Anything 3 (SAM 3), Vision Language Models, and real-time spatial analysis.\""
+  },
+  {
+    "path": "ai/context-memory-expert",
+    "name": "context-memory-expert",
+    "description": "\"Master of AI agent context window management, memory persistence, context compression/restoration, and conversation memory strategies for long-running autonomous sessions.\""
+  },
+  {
+    "path": "ai/context7-auto-research",
+    "name": "context7-auto-research",
+    "description": "Automatically fetch latest library/framework documentation for Claude Code via Context7 API"
+  },
+  {
+    "path": "ai/debugging-toolkit-smart-debug",
+    "name": "debugging-toolkit-smart-debug",
+    "description": "\"Use when working with debugging toolkit smart debug\""
+  },
+  {
+    "path": "ai/deep-research",
+    "name": "deep-research",
+    "description": "\"Execute autonomous multi-step research using Google Gemini Deep Research Agent. Use for: market analysis, competitive landscaping, literature reviews, technical research, due diligence. Takes 2-10 ...\""
+  },
+  {
+    "path": "ai/exa-search",
+    "name": "exa-search",
+    "description": "Semantic search, similar content discovery, and structured research using Exa API"
+  },
+  {
+    "path": "ai/fal-expert",
+    "name": "fal-expert",
+    "description": "\"Master of the Fal.ai platform including image generation/editing, audio processing, upscaling, and workflow orchestration using Fal APIs.\""
+  },
+  {
+    "path": "ai/full-stack-orchestration-full-stack-feature",
+    "name": "full-stack-orchestration-full-stack-feature",
+    "description": "\"Use when working with full stack orchestration full stack feature\""
+  },
+  {
+    "path": "ai/gemini-api-dev",
+    "name": "gemini-api-dev",
+    "description": "\"Use this skill when building applications with Gemini models, Gemini API, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or n...\""
+  },
+  {
+    "path": "ai/hosted-agents-v2-py",
+    "name": "hosted-agents-v2-py",
+    "description": "\"Build hosted agents using Azure AI Projects SDK with ImageBasedHostedAgentDefinition. Use when creating container-based agents in Azure AI Foundry.\""
+  },
+  {
+    "path": "ai/huggingface-expert",
+    "name": "huggingface-expert",
+    "description": "\"Master of Hugging Face ecosystem including CLI tools, model hub, inference jobs, and fine-tuning workflows.\""
+  },
+  {
+    "path": "ai/imagen",
+    "name": "imagen",
+    "description": "\"|\""
+  },
+  {
+    "path": "ai/inngest",
+    "name": "inngest",
+    "description": "\"Inngest expert for serverless-first background jobs, event-driven workflows, and durable execution without managing queues or workers. Use when: inngest, serverless background job, event-driven workflow, step function, durable execution.\""
+  },
+  {
+    "path": "ai/intelligent-routing",
+    "name": "intelligent-routing",
+    "description": "Automatic agent selection and intelligent task routing. Analyzes user requests and automatically selects the best specialist agent(s) without requiring explicit user mentions."
+  },
+  {
+    "path": "ai/langchain-expert",
+    "name": "langchain-expert",
+    "description": "\"Master of LangChain architecture and LangGraph stateful agent workflows, including chains, tools, memory, and graph-based orchestration.\""
+  },
+  {
+    "path": "ai/llm-app-expert",
+    "name": "llm-app-expert",
+    "description": "\"Master of LLM application development patterns including AI assistants, LangChain agents, prompt optimization pipelines, and production-grade LLM integrations.\""
+  },
+  {
+    "path": "ai/mcp-builder-expert",
+    "name": "mcp-builder-expert",
+    "description": "\"Master of building Model Context Protocol (MCP) servers, tools, and integrations for AI-native development environments.\""
+  },
+  {
+    "path": "ai/ml-ops-expert",
+    "name": "ml-ops-expert",
+    "description": "\"Master of ML engineering, MLOps pipelines, model training workflows, ML infrastructure, and production ML system management.\""
+  },
+  {
+    "path": "ai/multi-agent-expert",
+    "name": "multi-agent-expert",
+    "description": "\"Master of multi-agent orchestration, parallel dispatching, agent improvement loops, brainstorming protocols, and inter-agent communication patterns.\""
+  },
+  {
+    "path": "ai/nerdzao-elite-expert",
+    "name": "nerdzao-elite-expert",
+    "description": "\"Master of Nerdzao Elite coding patterns and high-performance AI development methodologies for Gemini-native environments.\""
+  },
+  {
+    "path": "ai/notebooklm",
+    "name": "notebooklm",
+    "description": "Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed answers from Gemini. Browser automation, library management, persistent auth. Drastically reduced hallucinations through document-only responses."
+  },
+  {
+    "path": "ai/prompt-expert",
+    "name": "prompt-expert",
+    "description": "\"Master of prompt engineering, chain-of-thought design, prompt libraries, few-shot patterns, and systematic prompt optimization for LLM applications.\""
+  },
+  {
+    "path": "ai/pypict-skill",
+    "name": "pypict-skill",
+    "description": "\"Pairwise test generation\""
+  },
+  {
+    "path": "ai/rag-vector-expert",
+    "name": "rag-vector-expert",
+    "description": "\"Master of Retrieval-Augmented Generation (RAG) pipelines, embedding strategies, vector database engineering, index tuning, and hybrid search implementations.\""
+  },
+  {
+    "path": "ai/subagent-driven-development",
+    "name": "subagent-driven-development",
+    "description": "Use when executing implementation plans with independent tasks in the current session"
+  },
+  {
+    "path": "ai/superpowers-expert",
+    "name": "superpowers-expert",
+    "description": "\"Master of AI superpowers lab experiments and practical usage patterns for advanced AI coding capabilities.\""
+  },
+  {
+    "path": "ai/systematic-debugging",
+    "name": "systematic-debugging",
+    "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes"
+  },
+  {
+    "path": "ai/tavily-web",
+    "name": "tavily-web",
+    "description": "Web search, content extraction, crawling, and research capabilities using Tavily API"
+  },
+  {
+    "path": "ai/vexor",
+    "name": "vexor",
+    "description": "\"Vector-powered CLI for semantic file search with a Claude/Codex skill\""
+  },
+  {
+    "path": "ai/voice-ai-expert",
+    "name": "voice-ai-expert",
+    "description": "\"Master of voice AI development including voice agents, speech-to-text/text-to-speech engines, conversational voice interfaces, and real-time audio processing.\""
+  },
+  {
+    "path": "automation/activecampaign-automation",
+    "name": "activecampaign-automation",
+    "description": "\"Automate ActiveCampaign tasks via Rube MCP (Composio): manage contacts, tags, list subscriptions, automation enrollment, and tasks. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/airtable-automation",
+    "name": "airtable-automation",
+    "description": "\"Automate Airtable tasks via Rube MCP (Composio): records, bases, tables, fields, views. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/amplitude-automation",
+    "name": "amplitude-automation",
+    "description": "\"Automate Amplitude tasks via Rube MCP (Composio): events, user activity, cohorts, user identification. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/asana-automation",
+    "name": "asana-automation",
+    "description": "\"Automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/bamboohr-automation",
+    "name": "bamboohr-automation",
+    "description": "\"Automate BambooHR tasks via Rube MCP (Composio): employees, time-off, benefits, dependents, employee updates. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/basecamp-automation",
+    "name": "basecamp-automation",
+    "description": "\"Automate Basecamp project management, to-dos, messages, people, and to-do list organization via Rube MCP (Composio). Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/billing-automation",
+    "name": "billing-automation",
+    "description": "\"Build automated billing systems for recurring payments, invoicing, subscription lifecycle, and dunning management. Use when implementing subscription billing, automating invoicing, or managing recu...\""
+  },
+  {
+    "path": "automation/bitbucket-automation",
+    "name": "bitbucket-automation",
+    "description": "\"Automate Bitbucket repositories, pull requests, branches, issues, and workspace management via Rube MCP (Composio). Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/box-automation",
+    "name": "box-automation",
+    "description": "\"Automate Box cloud storage operations including file upload/download, search, folder management, sharing, collaborations, and metadata queries via Rube MCP (Composio). Always search tools first for...\""
+  },
+  {
+    "path": "automation/brevo-automation",
+    "name": "brevo-automation",
+    "description": "\"Automate Brevo (Sendinblue) tasks via Rube MCP (Composio): manage email campaigns, create/edit templates, track senders, and monitor campaign performance. Always search tools first for current sche...\""
+  },
+  {
+    "path": "automation/browser-automation",
+    "name": "browser-automation",
+    "description": "\"Browser automation powers web testing, scraping, and AI agent interactions. The difference between a flaky script and a reliable system comes down to understanding selectors, waiting strategies, and anti-detection patterns.  This skill covers Playwright (recommended) and Puppeteer, with patterns for testing, scraping, and agentic browser control. Key insight: Playwright won the framework war. Unless you need Puppeteer's stealth ecosystem or are Chrome-only, Playwright is the better choice in 202\""
+  },
+  {
+    "path": "automation/cal-com-automation",
+    "name": "cal-com-automation",
+    "description": "\"Automate Cal.com tasks via Rube MCP (Composio): manage bookings, check availability, configure webhooks, and handle teams. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/calendly-automation",
+    "name": "calendly-automation",
+    "description": "\"Automate Calendly scheduling, event management, invitee tracking, availability checks, and organization administration via Rube MCP (Composio). Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/canva-automation",
+    "name": "canva-automation",
+    "description": "\"Automate Canva tasks via Rube MCP (Composio): designs, exports, folders, brand templates, autofill. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/changelog-automation",
+    "name": "changelog-automation",
+    "description": "\"Automate changelog generation from commits, PRs, and releases following Keep a Changelog format. Use when setting up release workflows, generating release notes, or standardizing commit conventions.\""
+  },
+  {
+    "path": "automation/circleci-automation",
+    "name": "circleci-automation",
+    "description": "\"Automate CircleCI tasks via Rube MCP (Composio): trigger pipelines, monitor workflows/jobs, retrieve artifacts and test metadata. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/clickup-automation",
+    "name": "clickup-automation",
+    "description": "\"Automate ClickUp project management including tasks, spaces, folders, lists, comments, and team operations via Rube MCP (Composio). Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/close-automation",
+    "name": "close-automation",
+    "description": "\"Automate Close CRM tasks via Rube MCP (Composio): create leads, manage calls/SMS, handle tasks, and track notes. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/coda-automation",
+    "name": "coda-automation",
+    "description": "\"Automate Coda tasks via Rube MCP (Composio): manage docs, pages, tables, rows, formulas, permissions, and publishing. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/confluence-automation",
+    "name": "confluence-automation",
+    "description": "\"Automate Confluence page creation, content search, space management, labels, and hierarchy navigation via Rube MCP (Composio). Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/datadog-automation",
+    "name": "datadog-automation",
+    "description": "\"Automate Datadog tasks via Rube MCP (Composio): query metrics, search logs, manage monitors/dashboards, create events and downtimes. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/discord-automation",
+    "name": "discord-automation",
+    "description": "\"Automate Discord tasks via Rube MCP (Composio): messages, channels, roles, webhooks, reactions. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/docusign-automation",
+    "name": "docusign-automation",
+    "description": "\"Automate DocuSign tasks via Rube MCP (Composio): templates, envelopes, signatures, document management. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/dropbox-automation",
+    "name": "dropbox-automation",
+    "description": "\"Automate Dropbox file management, sharing, search, uploads, downloads, and folder operations via Rube MCP (Composio). Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/email-marketing-expert",
+    "name": "email-marketing-expert",
+    "description": "\"Master of email marketing platform automation including Mailchimp, ConvertKit, and SendGrid integration.\""
+  },
+  {
+    "path": "automation/figma-automation",
+    "name": "figma-automation",
+    "description": "\"Automate Figma tasks via Rube MCP (Composio): files, components, design tokens, comments, exports. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/firecrawl-scraper",
+    "name": "firecrawl-scraper",
+    "description": "Deep web scraping, screenshots, PDF parsing, and website crawling using Firecrawl API"
+  },
+  {
+    "path": "automation/freshworks-expert",
+    "name": "freshworks-expert",
+    "description": "\"Master of Freshworks suite automation including Freshdesk ticketing and Freshservice IT service management.\""
+  },
+  {
+    "path": "automation/github-expert",
+    "name": "github-expert",
+    "description": "\"Master of GitHub automation including repository management, GitHub Actions workflow automation, and CI/CD pipeline integration.\""
+  },
+  {
+    "path": "automation/gitlab-automation",
+    "name": "gitlab-automation",
+    "description": "\"Automate GitLab project management, issues, merge requests, pipelines, branches, and user operations via Rube MCP (Composio). Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/gmail-automation",
+    "name": "gmail-automation",
+    "description": "\"Automate Gmail tasks via Rube MCP (Composio): send/reply, search, labels, drafts, attachments. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/google-analytics-automation",
+    "name": "google-analytics-automation",
+    "description": "\"Automate Google Analytics tasks via Rube MCP (Composio): run reports, list accounts/properties, funnels, pivots, key events. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/google-calendar-automation",
+    "name": "google-calendar-automation",
+    "description": "\"Automate Google Calendar events, scheduling, availability checks, and attendee management via Rube MCP (Composio). Create events, find free slots, manage attendees, and list calendars programmatica...\""
+  },
+  {
+    "path": "automation/google-drive-automation",
+    "name": "google-drive-automation",
+    "description": "\"Automate Google Drive file operations (upload, download, search, share, organize) via the official Google Drive MCP server (drivemcp.googleapis.com). Manage files, folders, permissions, and search across drives using OAuth 2.0 authentication.\""
+  },
+  {
+    "path": "automation/googlesheets-automation",
+    "name": "googlesheets-automation",
+    "description": "\"Automate Google Sheets operations (read, write, format, filter, manage spreadsheets) via Rube MCP (Composio). Read/write data, manage tabs, apply formatting, and search rows programmatically.\""
+  },
+  {
+    "path": "automation/helpdesk-automation",
+    "name": "helpdesk-automation",
+    "description": "\"Automate HelpDesk tasks via Rube MCP (Composio): list tickets, manage views, use canned responses, and configure custom fields. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/hubspot-expert",
+    "name": "hubspot-expert",
+    "description": "\"Master of HubSpot CRM automation and integration including contacts, deals, workflows, and marketing automation.\""
+  },
+  {
+    "path": "automation/instagram-automation",
+    "name": "instagram-automation",
+    "description": "\"Automate Instagram tasks via Rube MCP (Composio): create posts, carousels, manage media, get insights, and publishing limits. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/intercom-automation",
+    "name": "intercom-automation",
+    "description": "\"Automate Intercom tasks via Rube MCP (Composio): conversations, contacts, companies, segments, admins. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/klaviyo-automation",
+    "name": "klaviyo-automation",
+    "description": "\"Automate Klaviyo tasks via Rube MCP (Composio): manage email/SMS campaigns, inspect campaign messages, track tags, and monitor send jobs. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/linear-automation",
+    "name": "linear-automation",
+    "description": "\"Automate Linear tasks via Rube MCP (Composio): issues, projects, cycles, teams, labels. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/linkedin-automation",
+    "name": "linkedin-automation",
+    "description": "\"Automate LinkedIn tasks via Rube MCP (Composio): create posts, manage profile, company info, comments, and image uploads. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/make-automation",
+    "name": "make-automation",
+    "description": "\"Automate Make (Integromat) tasks via Rube MCP (Composio): operations, enums, language and timezone lookups. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/microsoft-teams-automation",
+    "name": "microsoft-teams-automation",
+    "description": "\"Automate Microsoft Teams tasks via Rube MCP (Composio): send messages, manage channels, create meetings, handle chats, and search messages. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/miro-automation",
+    "name": "miro-automation",
+    "description": "\"Automate Miro tasks via Rube MCP (Composio): boards, items, sticky notes, frames, sharing, connectors. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/mixpanel-automation",
+    "name": "mixpanel-automation",
+    "description": "\"Automate Mixpanel tasks via Rube MCP (Composio): events, segmentation, funnels, cohorts, user profiles, JQL queries. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/monday-automation",
+    "name": "monday-automation",
+    "description": "\"Automate Monday.com work management including boards, items, columns, groups, subitems, and updates via Rube MCP (Composio). Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/n8n-expert",
+    "name": "n8n-expert",
+    "description": "\"Master of n8n workflow automation including JavaScript/Python code nodes, expression syntax, node configuration, validation, and workflow design patterns.\""
+  },
+  {
+    "path": "automation/notion-expert",
+    "name": "notion-expert",
+    "description": "\"Master of Notion automation including database management, template creation, and business workflow integration.\""
+  },
+  {
+    "path": "automation/one-drive-automation",
+    "name": "one-drive-automation",
+    "description": "\"Automate OneDrive file management, search, uploads, downloads, sharing, permissions, and folder operations via Rube MCP (Composio). Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/outlook-expert",
+    "name": "outlook-expert",
+    "description": "\"Master of Microsoft Outlook automation including email management, calendar integration, and scheduling workflows.\""
+  },
+  {
+    "path": "automation/pagerduty-automation",
+    "name": "pagerduty-automation",
+    "description": "\"Automate PagerDuty tasks via Rube MCP (Composio): manage incidents, services, schedules, escalation policies, and on-call rotations. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/pipedrive-automation",
+    "name": "pipedrive-automation",
+    "description": "\"Automate Pipedrive CRM operations including deals, contacts, organizations, activities, notes, and pipeline management via Rube MCP (Composio). Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/posthog-automation",
+    "name": "posthog-automation",
+    "description": "\"Automate PostHog tasks via Rube MCP (Composio): events, feature flags, projects, user profiles, annotations. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/postmark-automation",
+    "name": "postmark-automation",
+    "description": "\"Automate Postmark email delivery tasks via Rube MCP (Composio): send templated emails, manage templates, monitor delivery stats and bounces. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/reddit-automation",
+    "name": "reddit-automation",
+    "description": "\"Automate Reddit tasks via Rube MCP (Composio): search subreddits, create posts, manage comments, and browse top content. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/render-automation",
+    "name": "render-automation",
+    "description": "\"Automate Render tasks via Rube MCP (Composio): services, deployments, projects. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/salesforce-automation",
+    "name": "salesforce-automation",
+    "description": "\"Automate Salesforce tasks via Rube MCP (Composio): leads, contacts, accounts, opportunities, SOQL queries. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/segment-automation",
+    "name": "segment-automation",
+    "description": "\"Automate Segment tasks via Rube MCP (Composio): track events, identify users, manage groups, page views, aliases, batch operations. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/sentry-automation",
+    "name": "sentry-automation",
+    "description": "\"Automate Sentry tasks via Rube MCP (Composio): manage issues/events, configure alerts, track releases, monitor projects and teams. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/shopify-automation",
+    "name": "shopify-automation",
+    "description": "\"Automate Shopify tasks via Rube MCP (Composio): products, orders, customers, inventory, collections. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/slack-automation",
+    "name": "slack-automation",
+    "description": "\"Automate Slack messaging, channel management, search, reactions, and threads via Rube MCP (Composio). Send messages, search conversations, manage channels/users, and react to messages programmatica...\""
+  },
+  {
+    "path": "automation/square-automation",
+    "name": "square-automation",
+    "description": "\"Automate Square tasks via Rube MCP (Composio): payments, orders, invoices, locations. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/stripe-automation",
+    "name": "stripe-automation",
+    "description": "\"Automate Stripe tasks via Rube MCP (Composio): customers, charges, subscriptions, invoices, products, refunds. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/supabase-automation",
+    "name": "supabase-automation",
+    "description": "\"Automate Supabase database queries, table management, project administration, storage, edge functions, and SQL execution via Rube MCP (Composio). Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/telegram-expert",
+    "name": "telegram-expert",
+    "description": "\"Master of Telegram automation including bot building, mini-app development, and messaging automation workflows.\""
+  },
+  {
+    "path": "automation/tiktok-automation",
+    "name": "tiktok-automation",
+    "description": "\"Automate TikTok tasks via Rube MCP (Composio): upload/publish videos, post photos, manage content, and view user profiles/stats. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/todoist-automation",
+    "name": "todoist-automation",
+    "description": "\"Automate Todoist task management, projects, sections, filtering, and bulk operations via Rube MCP (Composio). Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/trello-automation",
+    "name": "trello-automation",
+    "description": "\"Automate Trello boards, cards, and workflows via Rube MCP (Composio). Create cards, manage lists, assign members, and search across boards programmatically.\""
+  },
+  {
+    "path": "automation/twilio-communications",
+    "name": "twilio-communications",
+    "description": "\"Build communication features with Twilio: SMS messaging, voice calls, WhatsApp Business API, and user verification (2FA). Covers the full spectrum from simple notifications to complex IVR systems and multi-channel authentication. Critical focus on compliance, rate limits, and error handling. Use when: twilio, send SMS, text message, voice call, phone verification.\""
+  },
+  {
+    "path": "automation/twitter-automation",
+    "name": "twitter-automation",
+    "description": "\"Automate Twitter/X tasks via Rube MCP (Composio): posts, search, users, bookmarks, lists, media. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/vercel-automation",
+    "name": "vercel-automation",
+    "description": "\"Automate Vercel tasks via Rube MCP (Composio): manage deployments, domains, DNS, env vars, projects, and teams. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/webflow-automation",
+    "name": "webflow-automation",
+    "description": "\"Automate Webflow CMS collections, site publishing, page management, asset uploads, and ecommerce orders via Rube MCP (Composio). Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/whatsapp-expert",
+    "name": "whatsapp-expert",
+    "description": "\"Master of WhatsApp automation including message sending, webhook observation, business API integration, and chatbot workflows.\""
+  },
+  {
+    "path": "automation/workflow-expert",
+    "name": "workflow-expert",
+    "description": "\"Master of workflow automation patterns, orchestration strategies, event-driven workflows, and automation architecture design.\""
+  },
+  {
+    "path": "automation/wrike-automation",
+    "name": "wrike-automation",
+    "description": "\"Automate Wrike project management via Rube MCP (Composio): create tasks/folders, manage projects, assign work, and track progress. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/youtube-automation",
+    "name": "youtube-automation",
+    "description": "\"Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/zapier-make-patterns",
+    "name": "zapier-make-patterns",
+    "description": "\"No-code automation democratizes workflow building. Zapier and Make (formerly Integromat) let non-developers automate business processes without writing code. But no-code doesn't mean no-complexity - these platforms have their own patterns, pitfalls, and breaking points.  This skill covers when to use which platform, how to build reliable automations, and when to graduate to code-based solutions. Key insight: Zapier optimizes for simplicity and integrations (7000+ apps), Make optimizes for power \""
+  },
+  {
+    "path": "automation/zendesk-automation",
+    "name": "zendesk-automation",
+    "description": "\"Automate Zendesk tasks via Rube MCP (Composio): tickets, users, organizations, replies. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/zoho-crm-automation",
+    "name": "zoho-crm-automation",
+    "description": "\"Automate Zoho CRM tasks via Rube MCP (Composio): create/update records, search contacts, manage leads, and convert leads. Always search tools first for current schemas.\""
+  },
+  {
+    "path": "automation/zoom-automation",
+    "name": "zoom-automation",
+    "description": "\"Automate Zoom meeting creation, management, recordings, webinars, and participant tracking via Rube MCP (Composio). Always search tools first for current schemas.\""
+  },
+  {
+    "path": "business/ab-test-setup",
+    "name": "ab-test-setup",
+    "description": "Structured guide for setting up A/B tests with mandatory gates for hypothesis, metrics, and execution readiness."
+  },
+  {
+    "path": "business/algolia-search",
+    "name": "algolia-search",
+    "description": "\"Expert patterns for Algolia search implementation, indexing strategies, React InstantSearch, and relevance tuning Use when: adding search to, algolia, instantsearch, search api, search functionality.\""
+  },
+  {
+    "path": "business/analytics-tracking",
+    "name": "analytics-tracking",
+    "description": ">"
+  },
+  {
+    "path": "business/business-analyst",
+    "name": "business-analyst",
+    "description": "\"Master modern business analysis with AI-powered analytics,\""
+  },
+  {
+    "path": "business/competitor-expert",
+    "name": "competitor-expert",
+    "description": "\"Master of competitive landscape analysis, alternative evaluation, market positioning, and competitor intelligence gathering.\""
+  },
+  {
+    "path": "business/contract-review",
+    "name": "contract-review",
+    "description": "Revisão de contratos legais com IA. Identifica termos desfavoráveis, sugere redlines e compara com padrões de mercado. Use para análise de contratos, due diligence ou preparação para negociação. Suporta NDAs, SaaS, M&A, contratos de emprego, acordos de pagamento e outros documentos jurídicos."
+  },
+  {
+    "path": "business/crypto-bd-agent",
+    "name": "crypto-bd-agent",
+    "description": "\">\""
+  },
+  {
+    "path": "business/culture-index",
+    "name": "culture-index",
+    "description": "\"Index and search culture documentation\""
+  },
+  {
+    "path": "business/customer-support",
+    "name": "customer-support",
+    "description": "\"Elite AI-powered customer support specialist mastering\""
+  },
+  {
+    "path": "business/defi-protocol-templates",
+    "name": "defi-protocol-templates",
+    "description": "\"Implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems. Use when building decentralized finance applications or smart contract protocols.\""
+  },
+  {
+    "path": "business/employment-contract-templates",
+    "name": "employment-contract-templates",
+    "description": "\"Create employment contracts, offer letters, and HR policy documents following legal best practices. Use when drafting employment agreements, creating HR policies, or standardizing employment docume...\""
+  },
+  {
+    "path": "business/form-cro",
+    "name": "form-cro",
+    "description": ">"
+  },
+  {
+    "path": "business/free-tool-strategy",
+    "name": "free-tool-strategy",
+    "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"free tool,\" \"marketing tool,\" \"calculator,\" \"generator,\" \"interactive tool,\" \"lead gen tool,\" \"build a tool for leads,\" or \"free resource.\" This skill bridges engineering and marketing — useful for founders and technical marketers."
+  },
+  {
+    "path": "business/geo-fundamentals",
+    "name": "geo-fundamentals",
+    "description": "Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexity)."
+  },
+  {
+    "path": "business/hr-pro",
+    "name": "hr-pro",
+    "description": "\"Professional, ethical HR partner for hiring,\""
+  },
+  {
+    "path": "business/internal-comms-community",
+    "name": "internal-comms",
+    "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.)."
+  },
+  {
+    "path": "business/kaizen",
+    "name": "kaizen",
+    "description": "Guide for continuous improvement, error proofing, and standardization. Use this skill when the user wants to improve code quality, refactor, or discuss process improvements."
+  },
+  {
+    "path": "business/kpi-dashboard-design",
+    "name": "kpi-dashboard-design",
+    "description": "\"Design effective KPI dashboards with metrics selection, visualization best practices, and real-time monitoring patterns. Use when building business dashboards, selecting metrics, or designing data ...\""
+  },
+  {
+    "path": "business/last30days",
+    "name": "last30days",
+    "description": "\"Research a topic from the last 30 days on Reddit + X + Web, become an expert, and write copy-paste-ready prompts for the user's target tool.\""
+  },
+  {
+    "path": "business/legal-advisor",
+    "name": "legal-advisor",
+    "description": "\"Draft privacy policies, terms of service, disclaimers, and legal\""
+  },
+  {
+    "path": "business/market-sizing-analysis",
+    "name": "market-sizing-analysis",
+    "description": "\"This skill should be used when the user asks to \\\\\\\"calculate TAM\\\\\\\",\""
+  },
+  {
+    "path": "business/micro-saas-launcher",
+    "name": "micro-saas-launcher",
+    "description": "\"Expert in launching small, focused SaaS products fast - the indie hacker approach to building profitable software. Covers idea validation, MVP development, pricing, launch strategies, and growing to sustainable revenue. Ship in weeks, not months. Use when: micro saas, indie hacker, small saas, side project, saas mvp.\""
+  },
+  {
+    "path": "business/nft-standards",
+    "name": "nft-standards",
+    "description": "\"Implement NFT standards (ERC-721, ERC-1155) with proper metadata handling, minting strategies, and marketplace integration. Use when creating NFT contracts, building NFT marketplaces, or implementi...\""
+  },
+  {
+    "path": "business/paypal-integration",
+    "name": "paypal-integration",
+    "description": "\"Integrate PayPal payment processing with support for express checkout, subscriptions, and refund management. Use when implementing PayPal payments, processing online transactions, or building e-com...\""
+  },
+  {
+    "path": "business/personal-tool-builder",
+    "name": "personal-tool-builder",
+    "description": "\"Expert in building custom tools that solve your own problems first. The best products often start as personal tools - scratch your own itch, build for yourself, then discover others have the same itch. Covers rapid prototyping, local-first apps, CLI tools, scripts that grow into products, and the art of dogfooding. Use when: build a tool, personal tool, scratch my itch, solve my problem, CLI tool.\""
+  },
+  {
+    "path": "business/plaid-fintech",
+    "name": "plaid-fintech",
+    "description": "\"Expert patterns for Plaid API integration including Link token flows, transactions sync, identity verification, Auth for ACH, balance checks, webhook handling, and fintech compliance best practices. Use when: plaid, bank account linking, bank connection, ach, account aggregation.\""
+  },
+  {
+    "path": "business/pricing-strategy",
+    "name": "pricing-strategy",
+    "description": "Design pricing, packaging, and monetization strategies based on value, customer willingness to pay, and growth objectives."
+  },
+  {
+    "path": "business/product-manager-toolkit",
+    "name": "product-manager-toolkit",
+    "description": "Comprehensive toolkit for product managers including RICE prioritization, customer interview analysis, PRD templates, discovery frameworks, and go-to-market strategies. Use for feature prioritization, user research synthesis, requirement documentation, and product strategy development."
+  },
+  {
+    "path": "business/research-engineer",
+    "name": "research-engineer",
+    "description": "\"An uncompromising Academic Research Engineer. Operates with absolute scientific rigor, objective criticism, and zero flair. Focuses on theoretical correctness, formal verification, and optimal implementation across any required technology.\""
+  },
+  {
+    "path": "business/risk-expert",
+    "name": "risk-expert",
+    "description": "\"Master of risk management, risk metrics calculation, risk assessment frameworks, and mitigation strategies.\""
+  },
+  {
+    "path": "business/sales-automator",
+    "name": "sales-automator",
+    "description": "\"Draft cold emails, follow-ups, and proposal templates. Creates\""
+  },
+  {
+    "path": "business/sdd-toolkit/requirements-agent",
+    "name": "requirements-agent",
+    "description": ">"
+  },
+  {
+    "path": "business/sdd-toolkit/sdd-product-analyst",
+    "name": "sdd-product-analyst",
+    "description": ">"
+  },
+  {
+    "path": "business/startup-expert",
+    "name": "startup-expert",
+    "description": "\"Master of startup analysis including business case modeling, financial projections, market opportunity assessment, metrics frameworks, and financial modeling.\""
+  },
+  {
+    "path": "business/team-expert",
+    "name": "team-expert",
+    "description": "\"Master of team collaboration patterns including standup notes, issue tracking, team composition analysis, and workflow optimization.\""
+  },
+  {
+    "path": "business/track-management",
+    "name": "track-management",
+    "description": "\"Use this skill when creating, managing, or working with Conductor\""
+  },
+  {
+    "path": "cloud/aws-penetration-testing",
+    "name": "AWS Penetration Testing",
+    "description": "This skill should be used when the user asks to \"pentest AWS\", \"test AWS security\", \"enumerate IAM\", \"exploit cloud infrastructure\", \"AWS privilege escalation\", \"S3 bucket testing\", \"metadata SSRF\", \"Lambda exploitation\", or needs guidance on Amazon Web Services security assessment."
+  },
+  {
+    "path": "cloud/aws-serverless",
+    "name": "aws-serverless",
+    "description": "\"Specialized skill for building production-ready serverless applications on AWS. Covers Lambda functions, API Gateway, DynamoDB, SQS/SNS event-driven patterns, SAM/CDK deployment, and cold start optimization.\""
+  },
+  {
+    "path": "cloud/aws-skills",
+    "name": "aws-skills",
+    "description": "\"AWS development with infrastructure automation and cloud architecture patterns\""
+  },
+  {
+    "path": "cloud/azd-deployment",
+    "name": "azd-deployment",
+    "description": "\"Deploy containerized applications to Azure Container Apps using Azure Developer CLI (azd). Use when setting up azd projects, writing azure.yaml configuration, creating Bicep infrastructure for Cont...\""
+  },
+  {
+    "path": "cloud/cloud-organizer",
+    "name": "cloud-organizer",
+    "description": ">"
+  },
+  {
+    "path": "cloud/helm-chart-scaffolding",
+    "name": "helm-chart-scaffolding",
+    "description": "\"Design, organize, and manage Helm charts for templating and packaging Kubernetes applications with reusable configurations. Use when creating Helm charts, packaging Kubernetes applications, or impl...\""
+  },
+  {
+    "path": "cloud/hybrid-cloud-expert",
+    "name": "hybrid-cloud-expert",
+    "description": "\"Master of hybrid cloud architecture including multi-cloud networking, on-premise/cloud integration, and cross-environment strategies.\""
+  },
+  {
+    "path": "cloud/kubernetes-expert",
+    "name": "kubernetes-expert",
+    "description": "\"Master of Kubernetes including manifest generation, security policies, cluster architecture, and container orchestration.\""
+  },
+  {
+    "path": "cloud/terraform-expert",
+    "name": "terraform-expert",
+    "description": "\"Master of Terraform infrastructure-as-code including module libraries, state management, and specialist deployment patterns.\""
+  },
+  {
+    "path": "data/backtesting-frameworks",
+    "name": "backtesting-frameworks",
+    "description": "\"Build robust backtesting systems for trading strategies with proper handling of look-ahead bias, survivorship bias, and transaction costs. Use when developing trading algorithms, validating strateg...\""
+  },
+  {
+    "path": "data/data-engineering-expert",
+    "name": "data-engineering-expert",
+    "description": "\"Master of data engineering including pipeline design, data-driven features, ETL/ELT workflows, and data infrastructure.\""
+  },
+  {
+    "path": "data/data-quality-frameworks",
+    "name": "data-quality-frameworks",
+    "description": "\"Implement data quality validation with Great Expectations, dbt tests, and data contracts. Use when building data quality pipelines, implementing validation rules, or establishing data contracts.\""
+  },
+  {
+    "path": "data/data-scientist",
+    "name": "data-scientist",
+    "description": "\"Expert data scientist for advanced analytics, machine learning, and\""
+  },
+  {
+    "path": "data/data-storytelling",
+    "name": "data-storytelling",
+    "description": "\"Transform data into compelling narratives using visualization, context, and persuasive structure. Use when presenting analytics to stakeholders, creating data reports, or building executive present...\""
+  },
+  {
+    "path": "data/database-cloud-optimization-cost-optimize",
+    "name": "database-cloud-optimization-cost-optimize",
+    "description": "\"You are a cloud cost optimization expert specializing in reducing infrastructure expenses while maintaining performance and reliability. Analyze cloud spending, identify savings opportunities, and ...\""
+  },
+  {
+    "path": "data/database-expert",
+    "name": "database-expert",
+    "description": "\"Master of database administration, architecture design, schema optimization, query performance tuning, and database management best practices.\""
+  },
+  {
+    "path": "data/database-migration-expert",
+    "name": "database-migration-expert",
+    "description": "\"Master of database migration strategies including SQL migrations, migration observability, zero-downtime migration, and schema evolution.\""
+  },
+  {
+    "path": "data/dbt-transformation-patterns",
+    "name": "dbt-transformation-patterns",
+    "description": "\"Master dbt (data build tool) for analytics engineering with model organization, testing, documentation, and incremental strategies. Use when building data transformations, creating data models, or ...\""
+  },
+  {
+    "path": "data/neon-expert",
+    "name": "neon-expert",
+    "description": "\"Master of Neon Serverless Postgres including setup, branching, connection methods, and production usage patterns.\""
+  },
+  {
+    "path": "data/nosql-expert",
+    "name": "nosql-expert",
+    "description": "\"Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses on mental models, query-first modeling, single-table design, and avoiding hot partitions in high-scale systems.\""
+  },
+  {
+    "path": "data/postgresql",
+    "name": "postgresql",
+    "description": "\"Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features\""
+  },
+  {
+    "path": "data/quant-analyst",
+    "name": "quant-analyst",
+    "description": "\"Build financial models, backtest trading strategies, and analyze\""
+  },
+  {
+    "path": "data/search-expert",
+    "name": "search-expert",
+    "description": "\"Master of search implementation including hybrid search, similarity search, vector indexing, and relevance tuning.\""
+  },
+  {
+    "path": "data/spark-optimization",
+    "name": "spark-optimization",
+    "description": "\"Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and memory tuning. Use when improving Spark performance, debugging slow jobs, or scaling data processing pipelines.\""
+  },
+  {
+    "path": "data/sql-expert",
+    "name": "sql-expert",
+    "description": "\"Master of SQL optimization patterns, query performance tuning, indexing strategies, and advanced SQL techniques.\""
+  },
+  {
+    "path": "dev/address-github-comments",
+    "name": "address-github-comments",
+    "description": "Use when you need to address review or issue comments on an open GitHub Pull Request using the gh CLI."
+  },
+  {
+    "path": "dev/angular-expert",
+    "name": "angular-expert",
+    "description": "\"Master of Angular framework including best practices, state management, UI patterns, and standalone component architecture.\""
+  },
+  {
+    "path": "dev/api-expert",
+    "name": "api-expert",
+    "description": "\"Master of API design principles, documentation generation, REST/GraphQL patterns, API testing, and mock server configuration.\""
+  },
+  {
+    "path": "dev/app-builder",
+    "name": "app-builder",
+    "description": "Main application building orchestrator. Creates full-stack applications from natural language requests. Determines project type, selects tech stack, coordinates agents."
+  },
+  {
+    "path": "dev/app-builder/templates",
+    "name": "templates",
+    "description": "Project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks."
+  },
+  {
+    "path": "dev/app-store-optimization",
+    "name": "app-store-optimization",
+    "description": "Complete App Store Optimization (ASO) toolkit for researching, optimizing, and tracking mobile app performance on Apple App Store and Google Play Store"
+  },
+  {
+    "path": "dev/application-performance-performance-optimization",
+    "name": "application-performance-performance-optimization",
+    "description": "\"Optimize end-to-end application performance with profiling, observability, and backend/frontend tuning. Use when coordinating performance optimization across the stack.\""
+  },
+  {
+    "path": "dev/architecture-expert",
+    "name": "architecture-expert",
+    "description": "\"Master of software architecture including architectural patterns, decision records, DDD (strategic/tactical/context mapping), and architecture reviews.\""
+  },
+  {
+    "path": "dev/arm-cortex-expert",
+    "name": "arm-cortex-expert",
+    "description": "\">\""
+  },
+  {
+    "path": "dev/auth-implementation-patterns",
+    "name": "auth-implementation-patterns",
+    "description": "\"Master authentication and authorization patterns including JWT, OAuth2, session management, and RBAC to build secure, scalable access control systems. Use when implementing auth systems, securing A...\""
+  },
+  {
+    "path": "dev/backend-expert",
+    "name": "backend-expert",
+    "description": "\"Master of backend architecture including development guidelines, feature development patterns, and server-side best practices.\""
+  },
+  {
+    "path": "dev/bash-expert",
+    "name": "bash-expert",
+    "description": "\"Master of Bash/Shell scripting including defensive patterns, Linux production scripts, POSIX compliance, ShellCheck, and system administration.\""
+  },
+  {
+    "path": "dev/bats-testing-patterns",
+    "name": "bats-testing-patterns",
+    "description": "\"Master Bash Automated Testing System (Bats) for comprehensive shell script testing. Use when writing tests for shell scripts, CI/CD pipelines, or requiring test-driven development of shell utilities.\""
+  },
+  {
+    "path": "dev/bazel-build-optimization",
+    "name": "bazel-build-optimization",
+    "description": "\"Optimize Bazel builds for large-scale monorepos. Use when configuring Bazel, implementing remote execution, or optimizing build performance for enterprise codebases.\""
+  },
+  {
+    "path": "dev/blockchain-developer",
+    "name": "blockchain-developer",
+    "description": "\"Build production-ready Web3 applications, smart contracts, and\""
+  },
+  {
+    "path": "dev/browser-extension-builder",
+    "name": "browser-extension-builder",
+    "description": "\"Expert in building browser extensions that solve real problems - Chrome, Firefox, and cross-browser extensions. Covers extension architecture, manifest v3, content scripts, popup UIs, monetization strategies, and Chrome Web Store publishing. Use when: browser extension, chrome extension, firefox addon, extension, manifest v3.\""
+  },
+  {
+    "path": "dev/bullmq-specialist",
+    "name": "bullmq-specialist",
+    "description": "\"BullMQ expert for Redis-backed job queues, background processing, and reliable async execution in Node.js/TypeScript applications. Use when: bullmq, bull queue, redis queue, background job, job queue.\""
+  },
+  {
+    "path": "dev/bun-development",
+    "name": "bun-development",
+    "description": "\"Modern JavaScript/TypeScript development with Bun runtime. Covers package management, bundling, testing, and migration from Node.js. Use when working with Bun, optimizing JS/TS development speed, or migrating from Node.js to Bun.\""
+  },
+  {
+    "path": "dev/c-pro",
+    "name": "c-pro",
+    "description": "Write efficient C code with proper memory management, pointer"
+  },
+  {
+    "path": "dev/c4-expert",
+    "name": "c4-expert",
+    "description": "\"Master of C4 architecture diagramming including Context, Container, Component, and Code level views for software architecture visualization.\""
+  },
+  {
+    "path": "dev/canvas-design",
+    "name": "canvas-design",
+    "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations."
+  },
+  {
+    "path": "dev/cc-skill-backend-patterns",
+    "name": "backend-patterns",
+    "description": "Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes."
+  },
+  {
+    "path": "dev/cc-skill-clickhouse-io",
+    "name": "clickhouse-io",
+    "description": "ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads."
+  },
+  {
+    "path": "dev/cc-skill-coding-standards",
+    "name": "coding-standards",
+    "description": "Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development."
+  },
+  {
+    "path": "dev/cc-skill-frontend-patterns",
+    "name": "frontend-patterns",
+    "description": "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices."
+  },
+  {
+    "path": "dev/clerk-auth",
+    "name": "clerk-auth",
+    "description": "\"Expert patterns for Clerk auth implementation, middleware, organizations, webhooks, and user sync Use when: adding authentication, clerk auth, user authentication, sign in, sign up.\""
+  },
+  {
+    "path": "dev/code-docs-expert",
+    "name": "code-docs-expert",
+    "description": "\"Master of code-level documentation including code explanation, docstring generation, and inline documentation standards.\""
+  },
+  {
+    "path": "dev/code-review-expert",
+    "name": "code-review-expert",
+    "description": "\"Master of code review processes including checklists, excellence standards, PR enhancement, comprehensive reviews, and review best practices.\""
+  },
+  {
+    "path": "dev/core-components",
+    "name": "core-components",
+    "description": "Core component library and design system patterns. Use when building UI, using design tokens, or working with the component library."
+  },
+  {
+    "path": "dev/cpp-pro",
+    "name": "cpp-pro",
+    "description": "\"Write idiomatic C++ code with modern features, RAII, smart\""
+  },
+  {
+    "path": "dev/dbos-expert",
+    "name": "dbos-expert",
+    "description": "\"Master of DBOS transactional serverless framework for Go, Python, and TypeScript applications.\""
+  },
+  {
+    "path": "dev/debug-expert",
+    "name": "debug-expert",
+    "description": "\"Master of debugging and error diagnostics including systematic debugging strategies, error analysis, trace analysis, smart debug tools, and error handling patterns.\""
+  },
+  {
+    "path": "dev/debugger",
+    "name": "debugger",
+    "description": "\"Debugging specialist for errors, test failures, and unexpected\""
+  },
+  {
+    "path": "dev/dependency-expert",
+    "name": "dependency-expert",
+    "description": "\"Master of dependency management including auditing, upgrade strategies, vulnerability scanning, and lock file management.\""
+  },
+  {
+    "path": "dev/discord-bot-architect",
+    "name": "discord-bot-architect",
+    "description": "\"Specialized skill for building production-ready Discord bots. Covers Discord.js (JavaScript) and Pycord (Python), gateway intents, slash commands, interactive components, rate limiting, and sharding.\""
+  },
+  {
+    "path": "dev/django-pro",
+    "name": "django-pro",
+    "description": "\"Master Django 5.x with async views, DRF, Celery, and Django\""
+  },
+  {
+    "path": "dev/dx-optimizer",
+    "name": "dx-optimizer",
+    "description": "\"Developer Experience specialist. Improves tooling, setup, and\""
+  },
+  {
+    "path": "dev/e2e-testing-patterns",
+    "name": "e2e-testing-patterns",
+    "description": "\"Master end-to-end testing with Playwright and Cypress to build reliable test suites that catch bugs, improve confidence, and enable fast deployment. Use when implementing E2E tests, debugging flaky...\""
+  },
+  {
+    "path": "dev/event-driven-expert",
+    "name": "event-driven-expert",
+    "description": "\"Master of event-driven architecture including event sourcing, event store design, CQRS implementation, and saga orchestration patterns.\""
+  },
+  {
+    "path": "dev/expo-expert",
+    "name": "expo-expert",
+    "description": "\"Master of Expo React Native development including deployment, upgrading, and mobile app distribution.\""
+  },
+  {
+    "path": "dev/fastapi-expert",
+    "name": "fastapi-expert",
+    "description": "\"Master of FastAPI development including router patterns, templates, middleware, dependency injection, and production configurations.\""
+  },
+  {
+    "path": "dev/find-bugs",
+    "name": "find-bugs",
+    "description": "\"Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit code on the current branch.\""
+  },
+  {
+    "path": "dev/firebase",
+    "name": "firebase",
+    "description": "\"Firebase gives you a complete backend in minutes - auth, database, storage, functions, hosting. But the ease of setup hides real complexity. Security rules are your last line of defense, and they're often wrong. Firestore queries are limited, and you learn this after you've designed your data model.  This skill covers Firebase Authentication, Firestore, Realtime Database, Cloud Functions, Cloud Storage, and Firebase Hosting. Key insight: Firebase is optimized for read-heavy, denormalized data. I\""
+  },
+  {
+    "path": "dev/flutter-expert",
+    "name": "flutter-expert",
+    "description": "\"Master Flutter development with Dart 3, advanced widgets, and\""
+  },
+  {
+    "path": "dev/fp-ts-expert",
+    "name": "fp-ts-expert",
+    "description": "\"Master of fp-ts functional programming in TypeScript including error handling, pragmatic patterns, and React integration.\""
+  },
+  {
+    "path": "dev/frontend-expert",
+    "name": "frontend-expert",
+    "description": "\"Master of frontend development including design systems, development guidelines, component scaffolding, and modern UI patterns.\""
+  },
+  {
+    "path": "dev/frontend-slides",
+    "name": "frontend-slides",
+    "description": "\"Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a...\""
+  },
+  {
+    "path": "dev/game-development",
+    "name": "game-development",
+    "description": "Game development orchestrator. Routes to platform-specific skills based on project needs."
+  },
+  {
+    "path": "dev/game-development/2d-games",
+    "name": "2d-games",
+    "description": "2D game development principles. Sprites, tilemaps, physics, camera."
+  },
+  {
+    "path": "dev/game-development/3d-games",
+    "name": "3d-games",
+    "description": "3D game development principles. Rendering, shaders, physics, cameras."
+  },
+  {
+    "path": "dev/game-development/game-art",
+    "name": "game-art",
+    "description": "Game art principles. Visual style selection, asset pipeline, animation workflow."
+  },
+  {
+    "path": "dev/game-development/game-audio",
+    "name": "game-audio",
+    "description": "Game audio principles. Sound design, music integration, adaptive audio systems."
+  },
+  {
+    "path": "dev/game-development/game-design",
+    "name": "game-design",
+    "description": "Game design principles. GDD structure, balancing, player psychology, progression."
+  },
+  {
+    "path": "dev/game-development/mobile-games",
+    "name": "mobile-games",
+    "description": "Mobile game development principles. Touch input, battery, performance, app stores."
+  },
+  {
+    "path": "dev/game-development/multiplayer",
+    "name": "multiplayer",
+    "description": "Multiplayer game development principles. Architecture, networking, synchronization."
+  },
+  {
+    "path": "dev/game-development/pc-games",
+    "name": "pc-games",
+    "description": "PC and console game development principles. Engine selection, platform features, optimization strategies."
+  },
+  {
+    "path": "dev/game-development/vr-ar",
+    "name": "vr-ar",
+    "description": "VR/AR development principles. Comfort, interaction, performance requirements."
+  },
+  {
+    "path": "dev/game-development/web-games",
+    "name": "web-games",
+    "description": "Web browser game development principles. Framework selection, WebGPU, optimization, PWA."
+  },
+  {
+    "path": "dev/git-expert",
+    "name": "git-expert",
+    "description": "\"Master of Git workflows including advanced branching, PR workflows, worktrees, commit conventions, branch finishing, and GitOps patterns.\""
+  },
+  {
+    "path": "dev/github-actions-templates",
+    "name": "github-actions-templates",
+    "description": "\"Create production-ready GitHub Actions workflows for automated testing, building, and deploying applications. Use when setting up CI/CD with GitHub Actions, automating development workflows, or cre...\""
+  },
+  {
+    "path": "dev/github-issue-creator",
+    "name": "github-issue-creator",
+    "description": "\"Convert raw notes, error logs, voice dictation, or screenshots into crisp GitHub-flavored markdown issue reports. Use when the user pastes bug info, error messages, or informal descriptions and wan...\""
+  },
+  {
+    "path": "dev/gitlab-ci-patterns",
+    "name": "gitlab-ci-patterns",
+    "description": "\"Build GitLab CI/CD pipelines with multi-stage workflows, caching, and distributed runners for scalable automation. Use when implementing GitLab CI/CD, optimizing pipeline performance, or setting up...\""
+  },
+  {
+    "path": "dev/gitops-workflow",
+    "name": "gitops-workflow",
+    "description": "\"Implement GitOps workflows with ArgoCD and Flux for automated, declarative Kubernetes deployments with continuous reconciliation. Use when implementing GitOps practices, automating Kubernetes deplo...\""
+  },
+  {
+    "path": "dev/godot-gdscript-patterns",
+    "name": "godot-gdscript-patterns",
+    "description": "\"Master Godot 4 GDScript patterns including signals, scenes, state machines, and optimization. Use when building Godot games, implementing game systems, or learning GDScript best practices.\""
+  },
+  {
+    "path": "dev/golang-expert",
+    "name": "golang-expert",
+    "description": "\"Master of Go development including concurrency patterns, Playwright/Rod browser automation, and idiomatic Go practices.\""
+  },
+  {
+    "path": "dev/graphql-expert",
+    "name": "graphql-expert",
+    "description": "\"Master of GraphQL development including schema design, resolver architecture, performance optimization, and API gateway patterns.\""
+  },
+  {
+    "path": "dev/i18n-localization",
+    "name": "i18n-localization",
+    "description": "Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support."
+  },
+  {
+    "path": "dev/ios-developer",
+    "name": "ios-developer",
+    "description": "\"Develop native iOS applications with Swift/SwiftUI. Masters iOS 18,\""
+  },
+  {
+    "path": "dev/javascript-typescript-expert",
+    "name": "javascript-typescript-expert",
+    "description": "\"Master of JavaScript and TypeScript including modern patterns, advanced types, testing patterns, scaffolding, and language mastery.\""
+  },
+  {
+    "path": "dev/lint-and-validate",
+    "name": "lint-and-validate",
+    "description": "\"Automatic quality control, linting, and static analysis procedures. Use after every code modification to ensure syntax correctness and project standards. Triggers onKeywords: lint, format, check, validate, types, static analysis.\""
+  },
+  {
+    "path": "dev/makepad-skills",
+    "name": "makepad-skills",
+    "description": "\"Makepad UI development skills for Rust apps: setup, patterns, shaders, packaging, and troubleshooting.\""
+  },
+  {
+    "path": "dev/mermaid-expert",
+    "name": "mermaid-expert",
+    "description": "\"Create Mermaid diagrams for flowcharts, sequences, ERDs, and\""
+  },
+  {
+    "path": "dev/microservices-patterns",
+    "name": "microservices-patterns",
+    "description": "\"Design microservices architectures with service boundaries, event-driven communication, and resilience patterns. Use when building distributed systems, decomposing monoliths, or implementing micros...\""
+  },
+  {
+    "path": "dev/migration-expert",
+    "name": "migration-expert",
+    "description": "\"Master of framework migration including code migration, dependency upgrades, legacy modernization, and incremental migration strategies.\""
+  },
+  {
+    "path": "dev/minecraft-bukkit-pro",
+    "name": "minecraft-bukkit-pro",
+    "description": "\"Master Minecraft server plugin development with Bukkit, Spigot, and\""
+  },
+  {
+    "path": "dev/mobile-expert",
+    "name": "mobile-expert",
+    "description": "\"Master of mobile development including design patterns, cross-platform strategies, and multi-platform application architecture.\""
+  },
+  {
+    "path": "dev/monorepo-expert",
+    "name": "monorepo-expert",
+    "description": "\"Master of monorepo architecture and management including workspace patterns, build optimization, and cross-package dependency management.\""
+  },
+  {
+    "path": "dev/moodle-external-api-development",
+    "name": "moodle-external-api-development",
+    "description": "Create custom external web service APIs for Moodle LMS. Use when implementing web services for course management, user tracking, quiz operations, or custom plugin functionality. Covers parameter validation, database operations, error handling, service registration, and Moodle coding standards."
+  },
+  {
+    "path": "dev/nestjs-expert",
+    "name": "nestjs-expert",
+    "description": "Nest.js framework expert specializing in module architecture, dependency injection, middleware, guards, interceptors, testing with Jest/Supertest, TypeORM/Mongoose integration, and Passport.js authentication. Use PROACTIVELY for any Nest.js application issues including architecture decisions, testing strategies, performance optimization, or debugging complex dependency injection problems. If a specialized expert is a better fit, I will recommend switching and stop."
+  },
+  {
+    "path": "dev/nextjs-expert",
+    "name": "nextjs-expert",
+    "description": "\"Master of Next.js including App Router patterns, best practices, Supabase auth integration, and server component architecture.\""
+  },
+  {
+    "path": "dev/nodejs-expert",
+    "name": "nodejs-expert",
+    "description": "\"Master of Node.js backend development including patterns, best practices, middleware, and server-side JavaScript architecture.\""
+  },
+  {
+    "path": "dev/nx-workspace-patterns",
+    "name": "nx-workspace-patterns",
+    "description": "\"Configure and optimize Nx monorepo workspaces. Use when setting up Nx, configuring project boundaries, optimizing build caching, or implementing affected commands.\""
+  },
+  {
+    "path": "dev/openapi-spec-generation",
+    "name": "openapi-spec-generation",
+    "description": "\"Generate and maintain OpenAPI 3.1 specifications from code, design-first specs, and validation patterns. Use when creating API documentation, generating SDKs, or ensuring API contract compliance.\""
+  },
+  {
+    "path": "dev/payment-integration",
+    "name": "payment-integration",
+    "description": "\"Integrate Stripe, PayPal, and payment processors. Handles checkout\""
+  },
+  {
+    "path": "dev/playwright-skill",
+    "name": "playwright-skill",
+    "description": "Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login flows, check links, automate any browser task. Use when user wants to test websites, automate browser interactions, validate web functionality, or perform any browser-based testing."
+  },
+  {
+    "path": "dev/postgres-best-practices",
+    "name": "supabase-postgres-best-practices",
+    "description": "Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations."
+  },
+  {
+    "path": "dev/powershell-windows",
+    "name": "powershell-windows",
+    "description": "PowerShell Windows patterns. Critical pitfalls, operator syntax, error handling."
+  },
+  {
+    "path": "dev/prisma-expert",
+    "name": "prisma-expert",
+    "description": "Prisma ORM expert for schema design, migrations, query optimization, relations modeling, and database operations. Use PROACTIVELY for Prisma schema issues, migration problems, query performance, relation design, or database connection issues."
+  },
+  {
+    "path": "dev/production-code-audit",
+    "name": "production-code-audit",
+    "description": "\"Autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations\""
+  },
+  {
+    "path": "dev/python-expert",
+    "name": "python-expert",
+    "description": "\"Master of Python development including patterns, async patterns, performance optimization, packaging, testing, scaffolding, and Pydantic modeling.\""
+  },
+  {
+    "path": "dev/radix-ui-design-system",
+    "name": "radix-ui-design-system",
+    "description": "\"Build accessible design systems with Radix UI primitives. Headless component customization, theming strategies, and compound component patterns for production-grade UI libraries.\""
+  },
+  {
+    "path": "dev/react-expert",
+    "name": "react-expert",
+    "description": "\"Master of React ecosystem including best practices, modern patterns, state management, UI component design, and performance optimization.\""
+  },
+  {
+    "path": "dev/react-flow-expert",
+    "name": "react-flow-expert",
+    "description": "\"Master of React Flow including node-based editor architecture, custom node design, and flow graph management.\""
+  },
+  {
+    "path": "dev/react-native-architecture",
+    "name": "react-native-architecture",
+    "description": "\"Build production React Native apps with Expo, navigation, native modules, offline sync, and cross-platform patterns. Use when developing mobile apps, implementing native integrations, or architecti...\""
+  },
+  {
+    "path": "dev/refactoring-expert",
+    "name": "refactoring-expert",
+    "description": "\"Master of code refactoring, tech debt management, codebase cleanup, dependency auditing, and clean code principles.\""
+  },
+  {
+    "path": "dev/rust-expert",
+    "name": "rust-expert",
+    "description": "\"Master of Rust development including async patterns, systems programming, memory safety, and high-performance Rust applications.\""
+  },
+  {
+    "path": "dev/salesforce-development",
+    "name": "salesforce-development",
+    "description": "\"Expert patterns for Salesforce platform development including Lightning Web Components (LWC), Apex triggers and classes, REST/Bulk APIs, Connected Apps, and Salesforce DX with scratch orgs and 2nd generation packages (2GP). Use when: salesforce, sfdc, apex, lwc, lightning web components.\""
+  },
+  {
+    "path": "dev/senior-architect",
+    "name": "senior-architect",
+    "description": "Comprehensive software architecture skill for designing scalable, maintainable systems using ReactJS, NextJS, NodeJS, Express, React Native, Swift, Kotlin, Flutter, Postgres, GraphQL, Go, Python. Includes architecture diagram generation, system design patterns, tech stack decision frameworks, and dependency analysis. Use when designing system architecture, making technical decisions, creating architecture diagrams, evaluating trade-offs, or defining integration patterns."
+  },
+  {
+    "path": "dev/senior-fullstack",
+    "name": "senior-fullstack",
+    "description": "Comprehensive fullstack development skill for building complete web applications with React, Next.js, Node.js, GraphQL, and PostgreSQL. Includes project scaffolding, code quality analysis, architecture patterns, and complete tech stack guidance. Use when building new projects, analyzing code quality, implementing design patterns, or setting up development workflows."
+  },
+  {
+    "path": "dev/shopify-expert",
+    "name": "shopify-expert",
+    "description": "\"Master of Shopify development including app building, theme customization, Liquid templates, and Shopify API integration.\""
+  },
+  {
+    "path": "dev/slack-bot-builder",
+    "name": "slack-bot-builder",
+    "description": "\"Build Slack apps using the Bolt framework across Python, JavaScript, and Java. Covers Block Kit for rich UIs, interactive components, slash commands, event handling, OAuth installation flows, and Workflow Builder integration. Focus on best practices for production-ready Slack apps. Use when: slack bot, slack app, bolt framework, block kit, slash command.\""
+  },
+  {
+    "path": "dev/slack-gif-creator",
+    "name": "slack-gif-creator",
+    "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\""
+  },
+  {
+    "path": "dev/stripe-integration",
+    "name": "stripe-integration",
+    "description": "\"Get paid from day one. Payments, subscriptions, billing portal, webhooks, metered billing, Stripe Connect. The complete guide to implementing Stripe correctly, including all the edge cases that will bite you at 3am.  This isn't just API calls - it's the full payment system: handling failures, managing subscriptions, dealing with dunning, and keeping revenue flowing. Use when: stripe, payments, subscription, billing, checkout.\""
+  },
+  {
+    "path": "dev/swiftui-expert-skill",
+    "name": "swiftui-expert-skill",
+    "description": "\"Write, review, or improve SwiftUI code following best practices for state management, view composition, performance, modern APIs, Swift concurrency, and iOS 26+ Liquid Glass adoption. Use when buil...\""
+  },
+  {
+    "path": "dev/tailwind-expert",
+    "name": "tailwind-expert",
+    "description": "\"Master of Tailwind CSS including design system creation, utility patterns, responsive design, and component styling.\""
+  },
+  {
+    "path": "dev/tdd-testing-expert",
+    "name": "tdd-testing-expert",
+    "description": "\"Master of TDD workflows (red-green-refactor), test automation, test generation, test fixing, and testing pattern design across all languages and frameworks.\""
+  },
+  {
+    "path": "dev/temporal-expert",
+    "name": "temporal-expert",
+    "description": "\"Master of Temporal workflow engine for Python including workflow design, activity patterns, and testing strategies.\""
+  },
+  {
+    "path": "dev/threejs-skills",
+    "name": "threejs-skills",
+    "description": "\"Create 3D scenes, interactive experiences, and visual effects using Three.js. Use when user requests 3D graphics, WebGL experiences, 3D visualizations, animations, or interactive 3D elements.\""
+  },
+  {
+    "path": "dev/trigger-dev",
+    "name": "trigger-dev",
+    "description": "\"Trigger.dev expert for background jobs, AI workflows, and reliable async execution with excellent developer experience and TypeScript-first design. Use when: trigger.dev, trigger dev, background task, ai background job, long running task.\""
+  },
+  {
+    "path": "dev/turborepo-caching",
+    "name": "turborepo-caching",
+    "description": "\"Configure Turborepo for efficient monorepo builds with local and remote caching. Use when setting up Turborepo, optimizing build pipelines, or implementing distributed caching.\""
+  },
+  {
+    "path": "dev/unity-expert",
+    "name": "unity-expert",
+    "description": "\"Master of Unity game development including ECS patterns, game architecture, and Unity-specific C# development.\""
+  },
+  {
+    "path": "dev/unreal-engine-cpp-pro",
+    "name": "unreal-engine-cpp-pro",
+    "description": "\"Expert guide for Unreal Engine 5.x C++ development, covering UObject hygiene, performance patterns, and best practices.\""
+  },
+  {
+    "path": "dev/upstash-qstash",
+    "name": "upstash-qstash",
+    "description": "\"Upstash QStash expert for serverless message queues, scheduled jobs, and reliable HTTP-based task delivery without managing infrastructure. Use when: qstash, upstash queue, serverless cron, scheduled http, message queue serverless.\""
+  },
+  {
+    "path": "dev/uv-package-manager",
+    "name": "uv-package-manager",
+    "description": "\"Master the uv package manager for fast Python dependency management, virtual environments, and modern Python project workflows. Use when setting up Python projects, managing dependencies, or optimi...\""
+  },
+  {
+    "path": "dev/web3-testing",
+    "name": "web3-testing",
+    "description": "\"Test smart contracts comprehensively using Hardhat and Foundry with unit tests, integration tests, and mainnet forking. Use when testing Solidity contracts, setting up blockchain test suites, or va...\""
+  },
+  {
+    "path": "dev/webapp-testing",
+    "name": "webapp-testing",
+    "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs."
+  },
+  {
+    "path": "dev/zustand-store-ts",
+    "name": "zustand-store-ts",
+    "description": "\"Create Zustand stores with TypeScript, subscribeWithSelector middleware, and proper state/action separation. Use when building React state management, creating global stores, or implementing reacti...\""
+  },
+  {
+    "path": "docs/beautiful-prose",
+    "name": "beautiful-prose",
+    "description": "\"Hard-edged writing style contract for timeless, forceful English prose without AI tics\""
+  },
+  {
+    "path": "docs/behavioral-modes",
+    "name": "behavioral-modes",
+    "description": "AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type."
+  },
+  {
+    "path": "docs/brainstorming",
+    "name": "brainstorming",
+    "description": ">"
+  },
+  {
+    "path": "docs/cc-skill-project-guidelines-example",
+    "name": "cc-skill-project-guidelines-example",
+    "description": "Project Guidelines Skill (Example)"
+  },
+  {
+    "path": "docs/clarity-gate",
+    "name": "clarity-gate",
+    "description": "\"Pre-ingestion verification for epistemic quality in RAG systems with 9-point verification and Two-Round HITL workflow\""
+  },
+  {
+    "path": "docs/daily-news-report",
+    "name": "daily-news-report",
+    "description": "\"Scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports.\""
+  },
+  {
+    "path": "docs/doc-coauthoring",
+    "name": "doc-coauthoring",
+    "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks."
+  },
+  {
+    "path": "docs/docs-architect",
+    "name": "docs-architect",
+    "description": "\"Creates comprehensive technical documentation from existing\""
+  },
+  {
+    "path": "docs/documentation-expert",
+    "name": "documentation-expert",
+    "description": "Technical documentation expert. Guides automatic generation from code, establishes architectural guidelines, and provides robust templates (README, API, JSDoc, ADR, llms.txt) for maximum clarity, scannability, and AI readability."
+  },
+  {
+    "path": "docs/infinite-gratitude",
+    "name": "infinite-gratitude",
+    "description": "\"Multi-agent research skill for parallel research execution (10 agents, battle-tested with real case studies).\""
+  },
+  {
+    "path": "docs/manifest",
+    "name": "manifest",
+    "description": "\"Install and configure the Manifest observability plugin for your agents. Use when setting up telemetry, configuring API keys, or troubleshooting the plugin.\""
+  },
+  {
+    "path": "docs/obsidian-clipper-template-creator",
+    "name": "obsidian-clipper-template-creator",
+    "description": "Guide for creating templates for the Obsidian Web Clipper. Use when you want to create a new clipping template, understand available variables, or format clipped content."
+  },
+  {
+    "path": "docs/office-files-expert",
+    "name": "office-files-expert",
+    "description": "\"Master of generating office documents (DOCX, PPTX, XLSX, PDF) and presentations programmatically.\""
+  },
+  {
+    "path": "docs/planning-expert",
+    "name": "planning-expert",
+    "description": "Master of project planning and execution. Guides context scanning, concise atomic checklists (5-10 tasks), detailed implementation plans (TDD, bite-sized tasks, exact file paths), and step-by-step validation."
+  },
+  {
+    "path": "docs/readme",
+    "name": "readme",
+    "description": "\"When the user wants to create or update a README.md file for a project. Also use when the user says 'write readme,' 'create readme,' 'document this project,' 'project documentation,' or asks for he...\""
+  },
+  {
+    "path": "docs/reference-builder",
+    "name": "reference-builder",
+    "description": "\"Creates exhaustive technical references and API documentation.\""
+  },
+  {
+    "path": "docs/screenshots",
+    "name": "screenshots",
+    "description": "\"Generate marketing screenshots of your app using Playwright. Use when the user wants to create screenshots for Product Hunt, social media, landing pages, or documentation.\""
+  },
+  {
+    "path": "docs/skill-expert",
+    "name": "skill-expert",
+    "description": "\"Master of creating, discovering, and writing AI coding skills following the SKILL.md standard format.\""
+  },
+  {
+    "path": "docs/tool-design",
+    "name": "tool-design",
+    "description": "\"Build tools that agents can use effectively, including architectural reduction patterns\""
+  },
+  {
+    "path": "docs/tutorial-engineer",
+    "name": "tutorial-engineer",
+    "description": "\"Creates step-by-step tutorials and educational content from code.\""
+  },
+  {
+    "path": "docs/wiki-expert",
+    "name": "wiki-expert",
+    "description": "\"Master of wiki management including architecture, content writing, onboarding guides, changelog, QA, research, and VitePress deployment.\""
+  },
+  {
+    "path": "imma/chatwoot-automation",
+    "name": "chatwoot-automation",
+    "description": "\"Automate Chatwoot operations via Application API: manage contacts, conversations, outbound/inbound messages, private notes, labels, agent assignments, and custom attributes. Custom tailored for the self-hosted ImmA instance.\""
+  },
+  {
+    "path": "imma/data/tecnoweb-rag-ingestion",
+    "name": "tecnoweb-rag-ingestion",
+    "description": "\"Skill automatizada para ingerir novos textos, gerar documentação Markdown no padrão Q&A, encontrar o último incremento numérico na Base de Dados e salvar o arquivo atualizado.\""
+  },
+  {
+    "path": "imma/imma-business-advisor",
+    "name": "imma-business-advisor",
+    "description": "\"Consultora de negócios especializada na ImmA Tecnologia. Conhece profundamente o portfólio de produtos (IARA Atendimento, IARA Help Desk, IARA Gestão, LucroMap), o posicionamento de marca, o tom de voz, o modelo de negócio e os clientes-alvo. Use para: estratégia comercial, propostas, argumentação de vendas, análise de mercado, decisões de produto, comunicação institucional e qualquer tarefa que exija conhecimento do contexto da ImmA. Para criação de posts e conteúdo de redes sociais, use a skill social-media-imma.\""
+  },
+  {
+    "path": "imma/imma-jira-manager",
+    "name": "imma-jira-manager",
+    "description": "\"Gerente de projetos técnico para o ecossistema ImmA. Automatiza a criação de tasks, subtasks e sincronização de status no Jira (Projeto KAN) com base no progresso real do desenvolvimento e especificações técnicas de automação via Rube MCP ou scripts locais.\""
+  },
+  {
+    "path": "imma/ops/sentry-triage",
+    "name": "sentry-triage",
+    "description": ">"
+  },
+  {
+    "path": "imma/social-media-imma",
+    "name": "social-media-imma",
+    "description": "\"Skill de Copywriting e Criação de Conteúdo B2B para a ImmA. Utiliza pesquisa externa (Firecrawl/Context7) e mantém histórico de publicações para evitar repetições.\""
+  },
+  {
+    "path": "marketing/content-expert",
+    "name": "content-expert",
+    "description": "\"Master of content creation and marketing including social content, content strategy, and content distribution.\""
+  },
+  {
+    "path": "marketing/copywriting-expert",
+    "name": "copywriting-expert",
+    "description": "\"Master of copywriting and copy editing including persuasive writing, brand voice, and editorial standards.\""
+  },
+  {
+    "path": "marketing/cro-expert",
+    "name": "cro-expert",
+    "description": "\"Master of Conversion Rate Optimization including form, page, popup, paywall, onboarding, and signup flow optimization.\""
+  },
+  {
+    "path": "marketing/email-expert",
+    "name": "email-expert",
+    "description": "\"Master of email marketing including sequence design, email systems architecture, and automated email campaigns.\""
+  },
+  {
+    "path": "marketing/launch-strategy",
+    "name": "launch-strategy",
+    "description": "\"When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' or 'product update.' This skill covers phased launches, channel strategy, and ongoing launch momentum.\""
+  },
+  {
+    "path": "marketing/marketing-ideas",
+    "name": "marketing-ideas",
+    "description": "Provide proven marketing strategies and growth ideas for SaaS and software products, prioritized using a marketing feasibility scoring system."
+  },
+  {
+    "path": "marketing/marketing-psychology",
+    "name": "marketing-psychology",
+    "description": "Apply behavioral science and mental models to marketing decisions, prioritized using a psychological leverage and feasibility scoring system."
+  },
+  {
+    "path": "marketing/oss-hunter",
+    "name": "oss-hunter",
+    "description": "\"Automatically hunt for high-impact OSS contribution opportunities in trending repositories.\""
+  },
+  {
+    "path": "marketing/paid-ads",
+    "name": "paid-ads",
+    "description": "\"When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ad copy,' 'ad creative,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' or 'audience targeting.' This skill covers campaign strategy, ad creation, audience targeting, and optimization.\""
+  },
+  {
+    "path": "marketing/referral-program",
+    "name": "referral-program",
+    "description": "\"When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' or 'partner program.' This skill covers program design, incentive structure, and growth optimization.\""
+  },
+  {
+    "path": "marketing/schema-markup",
+    "name": "schema-markup",
+    "description": ">"
+  },
+  {
+    "path": "marketing/search-specialist",
+    "name": "search-specialist",
+    "description": "Expert web researcher using advanced search techniques and"
+  },
+  {
+    "path": "marketing/segment-cdp",
+    "name": "segment-cdp",
+    "description": "\"Expert patterns for Segment Customer Data Platform including Analytics.js, server-side tracking, tracking plans with Protocols, identity resolution, destinations configuration, and data governance best practices. Use when: segment, analytics.js, customer data platform, cdp, tracking plan.\""
+  },
+  {
+    "path": "marketing/seo-expert",
+    "name": "seo-expert",
+    "description": "Master of Search Engine Optimization. Rules technical SEO, semantic HTML, structured data, high-impact content strategy (E-E-A-T, Core Web Vitals), keyword research, auditing, and programmatic SEO scaling."
+  },
+  {
+    "path": "marketing/viral-generator-builder",
+    "name": "viral-generator-builder",
+    "description": "\"Expert in building shareable generator tools that go viral - name generators, quiz makers, avatar creators, personality tests, and calculator tools. Covers the psychology of sharing, viral mechanics, and building tools people can't resist sharing with friends. Use when: generator tool, quiz maker, name generator, avatar creator, viral tool.\""
+  },
+  {
+    "path": "marketing/x-article-publisher-skill",
+    "name": "x-article-publisher-skill",
+    "description": "\"Publish articles to X/Twitter\""
+  },
+  {
+    "path": "marketing/youtube-summarizer",
+    "name": "youtube-summarizer",
+    "description": "\"Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks\""
+  },
+  {
+    "path": "ops/airflow-dag-patterns",
+    "name": "airflow-dag-patterns",
+    "description": "\"Build production Apache Airflow DAGs with best practices for operators, sensors, testing, and deployment. Use when creating data pipelines, orchestrating workflows, or scheduling batch jobs.\""
+  },
+  {
+    "path": "ops/audio-transcriber",
+    "name": "audio-transcriber",
+    "description": "\"Transform audio recordings into professional Markdown documentation with intelligent summaries using LLM integration\""
+  },
+  {
+    "path": "ops/cicd-automation-workflow-automate",
+    "name": "cicd-automation-workflow-automate",
+    "description": "\"You are a workflow automation expert specializing in creating efficient CI/CD pipelines, GitHub Actions workflows, and automated development processes. Design automation that reduces manual work, i...\""
+  },
+  {
+    "path": "ops/cloud-architect",
+    "name": "cloud-architect",
+    "description": "\"Expert cloud architect specializing in AWS/Azure/GCP multi-cloud\""
+  },
+  {
+    "path": "ops/conductor-expert",
+    "name": "conductor-expert",
+    "description": "Master orchestrator of the Conductor project lifecycle. Rules interactive setups, track registry management, stage validation, rollbacks/reverts, execution monitoring, and progress reporting."
+  },
+  {
+    "path": "ops/cost-optimization",
+    "name": "cost-optimization",
+    "description": "\"Optimize cloud costs through resource rightsizing, tagging strategies, reserved instances, and spending analysis. Use when reducing cloud expenses, analyzing infrastructure costs, or implementing c...\""
+  },
+  {
+    "path": "ops/deployment-expert",
+    "name": "deployment-expert",
+    "description": "\"Master of deployment engineering including pipeline design, deployment procedures, configuration validation, and release management.\""
+  },
+  {
+    "path": "ops/devops-troubleshooter",
+    "name": "devops-troubleshooter",
+    "description": "\"Expert DevOps troubleshooter specializing in rapid incident\""
+  },
+  {
+    "path": "ops/distributed-debug-expert",
+    "name": "distributed-debug-expert",
+    "description": "\"Master of distributed system debugging including trace analysis, distributed tracing setup, and cross-service debugging.\""
+  },
+  {
+    "path": "ops/docker-expert",
+    "name": "docker-expert",
+    "description": "Docker containerization expert with deep knowledge of multi-stage builds, image optimization, container security, Docker Compose orchestration, and production deployment patterns. Use PROACTIVELY for Dockerfile optimization, container issues, image size problems, security hardening, networking, and orchestration challenges."
+  },
+  {
+    "path": "ops/environment-setup-guide",
+    "name": "environment-setup-guide",
+    "description": "\"Guide developers through setting up development environments with proper tools, dependencies, and configurations\""
+  },
+  {
+    "path": "ops/gcp-cloud-run",
+    "name": "gcp-cloud-run",
+    "description": "\"Specialized skill for building production-ready serverless applications on GCP. Covers Cloud Run services (containerized), Cloud Run Functions (event-driven), cold start optimization, and event-driven architecture with Pub/Sub.\""
+  },
+  {
+    "path": "ops/grafana-dashboards",
+    "name": "grafana-dashboards",
+    "description": "\"Create and manage production Grafana dashboards for real-time visualization of system and application metrics. Use when building monitoring dashboards, visualizing metrics, or creating operational ...\""
+  },
+  {
+    "path": "ops/incident-expert",
+    "name": "incident-expert",
+    "description": "\"Master of incident response including triage, smart-fix automation, runbook templates, and post-incident processes.\""
+  },
+  {
+    "path": "ops/multi-cloud-architecture",
+    "name": "multi-cloud-architecture",
+    "description": "\"Design multi-cloud architectures using a decision framework to select and integrate services across AWS, Azure, and GCP. Use when building multi-cloud systems, avoiding vendor lock-in, or leveragin...\""
+  },
+  {
+    "path": "ops/network-expert",
+    "name": "network-expert",
+    "description": "\"Master of network engineering fundamentals including protocols, troubleshooting, DNS, load balancing, and network security.\""
+  },
+  {
+    "path": "ops/observability-expert",
+    "name": "observability-expert",
+    "description": "\"Master of observability including monitoring setup, SLO implementation, metrics design, and alerting strategies.\""
+  },
+  {
+    "path": "ops/on-call-handoff-patterns",
+    "name": "on-call-handoff-patterns",
+    "description": "\"Master on-call shift handoffs with context transfer, escalation procedures, and documentation. Use when transitioning on-call responsibilities, documenting shift summaries, or improving on-call pro...\""
+  },
+  {
+    "path": "ops/performance-expert",
+    "name": "performance-expert",
+    "description": "\"Master of performance engineering including profiling, load testing, performance review, and optimization strategies.\""
+  },
+  {
+    "path": "ops/postmortem-writing",
+    "name": "postmortem-writing",
+    "description": "\"Write effective blameless postmortems with root cause analysis, timelines, and action items. Use when conducting incident reviews, writing postmortem documents, or improving incident response proce...\""
+  },
+  {
+    "path": "ops/prometheus-configuration",
+    "name": "prometheus-configuration",
+    "description": "\"Set up Prometheus for comprehensive metric collection, storage, and monitoring of infrastructure and applications. Use when implementing metrics collection, setting up monitoring infrastructure, or...\""
+  },
+  {
+    "path": "ops/secrets-management",
+    "name": "secrets-management",
+    "description": "\"Implement secure secrets management for CI/CD pipelines using Vault, AWS Secrets Manager, or native platform solutions. Use when handling sensitive credentials, rotating secrets, or securing CI/CD ...\""
+  },
+  {
+    "path": "ops/server-management",
+    "name": "server-management",
+    "description": "Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Teaches thinking, not commands."
+  },
+  {
+    "path": "ops/service-mesh-expert",
+    "name": "service-mesh-expert",
+    "description": "\"Expert service mesh architect specializing in Istio, Linkerd, and cloud-native networking patterns. Masters traffic management, security policies, observability integration, and multi-cluster mesh con\""
+  },
+  {
+    "path": "ops/service-mesh-expert-new",
+    "name": "service-mesh-expert",
+    "description": "\"Master of service mesh technology including Istio traffic management, Linkerd patterns, mTLS configuration, and mesh observability.\""
+  },
+  {
+    "path": "ops/vercel-expert",
+    "name": "vercel-expert",
+    "description": "\"Master of Vercel deployment including claimable deploys, production deployments, and Vercel platform configuration.\""
+  },
+  {
+    "path": "ops/verification-before-completion",
+    "name": "verification-before-completion",
+    "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always"
+  },
+  {
+    "path": "ops/windows-portability",
+    "name": "windows-portability",
+    "description": ">"
+  },
+  {
+    "path": "security/aws-security-expert",
+    "name": "aws-security-expert",
+    "description": "\"Master of AWS security including IAM best practices, compliance checking, secrets rotation, and security auditing.\""
+  },
+  {
+    "path": "security/cc-skill-security-review",
+    "name": "security-review",
+    "description": "Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns."
+  },
+  {
+    "path": "security/compliance-expert",
+    "name": "compliance-expert",
+    "description": "\"Master of security compliance including GDPR, PCI-DSS, compliance checking, and security requirement extraction.\""
+  },
+  {
+    "path": "security/file-organizer",
+    "name": "file-organizer",
+    "description": "Intelligently organizes files and folders by understanding context, finding duplicates, and suggesting better organizational structures. Use when user wants to clean up directories, organize downloads, remove duplicates, or restructure projects."
+  },
+  {
+    "path": "security/laravel-security-audit",
+    "name": "laravel-security-audit",
+    "description": "\"Security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.\""
+  },
+  {
+    "path": "security/pentest-expert",
+    "name": "pentest-expert",
+    "description": "\"Master of penetration testing including web app testing, network pentesting, privilege escalation, red team tactics, SQL injection, XSS, authentication testing, and all common vulnerability categories.\""
+  },
+  {
+    "path": "security/projection-patterns",
+    "name": "projection-patterns",
+    "description": "\"Build read models and projections from event streams. Use when implementing CQRS read sides, building materialized views, or optimizing query performance in event-sourced systems.\""
+  },
+  {
+    "path": "security/reverse-engineering-expert",
+    "name": "reverse-engineering-expert",
+    "description": "\"Master of reverse engineering including binary analysis, firmware analysis, protocol reverse engineering, anti-reversing techniques, malware analysis, and memory forensics.\""
+  },
+  {
+    "path": "security/security-auditor",
+    "name": "security-auditor",
+    "description": "\"Expert security auditor specializing in DevSecOps, comprehensive\""
+  },
+  {
+    "path": "security/security-bluebook-builder",
+    "name": "security-bluebook-builder",
+    "description": "\"Build security Blue Books for sensitive apps\""
+  },
+  {
+    "path": "security/security-scanning-expert",
+    "name": "security-scanning-expert",
+    "description": "\"Master of security scanning including SAST configuration, dependency scanning, security hardening, and vulnerability scanning tools.\""
+  },
+  {
+    "path": "security/solidity-security",
+    "name": "solidity-security",
+    "description": "\"Master smart contract security best practices to prevent common vulnerabilities and implement secure Solidity patterns. Use when writing smart contracts, auditing existing contracts, or implementin...\""
+  },
+  {
+    "path": "security/threat-modeling-expert",
+    "name": "threat-modeling-expert",
+    "description": "\"Expert in threat modeling methodologies, security architecture review, and risk assessment. Masters STRIDE, PASTA, attack trees, and security requirement extraction. Use for security architecture r...\""
+  },
+  {
+    "path": "security/wcag-audit-patterns",
+    "name": "wcag-audit-patterns",
+    "description": "\"Conduct WCAG 2.2 accessibility audits with automated testing, manual verification, and remediation guidance. Use when auditing websites for accessibility, fixing WCAG violations, or implementing ac...\""
+  },
+  {
+    "path": "security/web-security-expert",
+    "name": "web-security-expert",
+    "description": "\"Master of web application security including API security, frontend/backend security coding, XSS prevention, file upload security, and mobile security.\""
+  },
+  {
+    "path": "security/wireshark-analysis",
+    "name": "Wireshark Network Traffic Analysis",
+    "description": "This skill should be used when the user asks to \"analyze network traffic with Wireshark\", \"capture packets for troubleshooting\", \"filter PCAP files\", \"follow TCP/UDP streams\", \"detect network anomalies\", \"investigate suspicious traffic\", or \"perform protocol analysis\". It provides comprehensive techniques for network packet capture, filtering, and analysis using Wireshark."
+  },
+  {
+    "path": "ui/3d-web-experience",
+    "name": "3d-web-experience",
+    "description": "\"Expert in building 3D experiences for the web - Three.js, React Three Fiber, Spline, WebGL, and interactive 3D scenes. Covers product configurators, 3D portfolios, immersive websites, and bringing depth to web experiences. Use when: 3D website, three.js, WebGL, react three fiber, 3D experience.\""
+  },
+  {
+    "path": "ui/accessibility-compliance-accessibility-audit",
+    "name": "accessibility-compliance-accessibility-audit",
+    "description": "\"You are an accessibility expert specializing in WCAG compliance, inclusive design, and assistive technology compatibility. Conduct audits, identify barriers, and provide remediation guidance.\""
+  },
+  {
+    "path": "ui/algorithmic-art",
+    "name": "algorithmic-art",
+    "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations."
+  },
+  {
+    "path": "ui/apple-hig-expert",
+    "name": "apple-hig-expert",
+    "description": "\"Master of Apple Human Interface Guidelines including component design (content, controls, dialogs, layout, menus, search, status, system), foundations, inputs, patterns, platforms, and technology recommendations.\""
+  },
+  {
+    "path": "ui/chrome-extensions",
+    "name": "chrome-extensions",
+    "description": ">"
+  },
+  {
+    "path": "ui/claude-d3js-skill",
+    "name": "d3-viz",
+    "description": "Creating interactive data visualisations using d3.js. This skill should be used when creating custom charts, graphs, network diagrams, geographic visualisations, or any complex SVG-based data visualisation that requires fine-grained control over visual elements, transitions, or interactions. Use this for bespoke visualisations beyond standard charting libraries, whether in React, Vue, Svelte, vanilla JavaScript, or any other environment."
+  },
+  {
+    "path": "ui/design-expert",
+    "name": "design-expert",
+    "description": "\"Master of UI/UX design systems including design tokens, orchestration, web design guidelines, and reusable component patterns.\""
+  },
+  {
+    "path": "ui/interactive-portfolio",
+    "name": "interactive-portfolio",
+    "description": "\"Expert in building portfolios that actually land jobs and clients - not just showing work, but creating memorable experiences. Covers developer portfolios, designer portfolios, creative portfolios, and portfolios that convert visitors into opportunities. Use when: portfolio, personal website, showcase work, developer portfolio, designer portfolio.\""
+  },
+  {
+    "path": "ui/modern-web-guidance",
+    "name": "modern-web-guidance",
+    "description": "|"
+  },
+  {
+    "path": "ui/remotion-best-practices",
+    "name": "remotion-best-practices",
+    "description": "Best practices for Remotion - Video creation in React"
+  },
+  {
+    "path": "ui/screen-reader-testing",
+    "name": "screen-reader-testing",
+    "description": "\"Test web applications with screen readers including VoiceOver, NVDA, and JAWS. Use when validating screen reader compatibility, debugging accessibility issues, or ensuring assistive technology supp...\""
+  },
+  {
+    "path": "ui/scroll-experience",
+    "name": "scroll-experience",
+    "description": "\"Expert in building immersive scroll-driven experiences - parallax storytelling, scroll animations, interactive narratives, and cinematic web experiences. Like NY Times interactives, Apple product pages, and award-winning web experiences. Makes websites feel like experiences, not just pages. Use when: scroll animation, parallax, scroll storytelling, interactive story, cinematic website.\""
+  },
+  {
+    "path": "ui/sharp-edges",
+    "name": "sharp-edges",
+    "description": "\"Identify error-prone APIs and dangerous configurations\""
+  },
+  {
+    "path": "ui/stitch-ui-design",
+    "name": "stitch-ui-design",
+    "description": "\"Expert guide for creating effective prompts for Google Stitch AI UI design tool. Use when user wants to design UI/UX in Stitch, create app interfaces, generate mobile/web designs, or needs help cra...\""
+  },
+  {
+    "path": "ui/theme-factory",
+    "name": "theme-factory",
+    "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly."
+  },
+  {
+    "path": "ui/ui-ux-expert",
+    "name": "ui-ux-expert",
+    "description": "\"Master of UI/UX design combining designer skills with advanced pro-max capabilities for premium interface creation.\""
+  },
+  {
+    "path": "ui/ui-visual-validator",
+    "name": "ui-visual-validator",
+    "description": "\"Rigorous visual validation expert specializing in UI testing,\""
+  },
+  {
+    "path": "ui/web-artifacts-builder",
+    "name": "web-artifacts-builder",
+    "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts."
+  },
+  {
+    "path": "ui/web-performance-optimization",
+    "name": "web-performance-optimization",
+    "description": "\"Optimize website and web application performance including loading speed, Core Web Vitals, bundle size, caching strategies, and runtime performance\""
+  }
+]
