@@ -44,3 +44,33 @@ with settings_path.open("w", encoding="utf-8") as f:
 print(f"Updated {settings_path}")
 PY
 fi
+
+# ─── Masterskill symlinks ───
+MASTERSKILL_RUNTIME="$HOME/Antigravity/.agent/Configuration/.gemini/antigravity/skills/masterskill"
+MASTERSKILL_REPO="$REPO_ROOT/antigravity/masterskill"
+REFERENCES_REPO="$REPO_ROOT/antigravity/references"
+
+if [ ! -f "$MASTERSKILL_REPO/SKILL.md" ]; then
+  echo "Missing masterskill SKILL.md in repo: $MASTERSKILL_REPO/SKILL.md" >&2
+  exit 1
+fi
+
+mkdir -p "$MASTERSKILL_RUNTIME/config"
+
+# Backup and symlink SKILL.md
+if [ -f "$MASTERSKILL_RUNTIME/SKILL.md" ] && [ ! -L "$MASTERSKILL_RUNTIME/SKILL.md" ]; then
+  cp "$MASTERSKILL_RUNTIME/SKILL.md" "$MASTERSKILL_RUNTIME/SKILL.md.backup.$(date +%Y%m%d-%H%M%S)"
+  echo "Backed up runtime SKILL.md"
+fi
+rm -f "$MASTERSKILL_RUNTIME/SKILL.md"
+ln -s "$MASTERSKILL_REPO/SKILL.md" "$MASTERSKILL_RUNTIME/SKILL.md"
+echo "Linked SKILL.md -> $MASTERSKILL_REPO/SKILL.md"
+
+# Backup and symlink references/
+if [ -d "$MASTERSKILL_RUNTIME/references" ] && [ ! -L "$MASTERSKILL_RUNTIME/references" ]; then
+  cp -r "$MASTERSKILL_RUNTIME/references" "$MASTERSKILL_RUNTIME/references.backup.$(date +%Y%m%d-%H%M%S)"
+  echo "Backed up runtime references/"
+fi
+rm -rf "$MASTERSKILL_RUNTIME/references"
+ln -s "$REFERENCES_REPO" "$MASTERSKILL_RUNTIME/references"
+echo "Linked references/ -> $REFERENCES_REPO"
