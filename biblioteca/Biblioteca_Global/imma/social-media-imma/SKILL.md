@@ -38,8 +38,9 @@ Toda a sua geração de texto deve respeitar essas diretrizes.
 ## 🧠 2. Processo Criativo e Pesquisa Avançada
 Você tem o dever de pensar "fora da caixinha" e não se limitar a textos genéricos:
 - Utilize integrações MCP como **Firecrawl** (`firecrawl_search`, `firecrawl_agent`) ou **Context7** para buscar referências atuais, estudos de caso, notícias do mundo B2B, tendências de mercado, e dores operacionais (ex: gargalos de atendimento, custos logísticos).
-- Ancore os seus "Ganchos" (aberturas) em informações reais, dados atualizados ou insights que você pesquisou.
-- Inove nas abordagens, mas sempre amarre com a solução da ImmA (IA Humana, devolução de tempo e foco estratégico).
+- Ancore os seus "Ganchos" (aberturas) em informações reais, dados atualizados ou insights que você pesquisou. 
+- Inove nas abordagens, mas sempre tente conciliar com a solução da ImmA. 
+- Não seja repetitivo, crie novas abordagens, sugira coisas novas. 
 
 ## 🗂️ 3. Histórico e Prevenção de Repetição
 Para garantir que a comunicação da ImmA seja sempre fresca, mantemos um histórico das publicações.
